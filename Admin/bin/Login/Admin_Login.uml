@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_2kDvAG3LEeyO3MDpaqvbWg" name="Admin_Login">
+    <eAnnotations xmi:id="_2100cG3LEeyO3MDpaqvbWg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_2100cW3LEeyO3MDpaqvbWg" source="codegen">
+        <details xmi:id="_2100cm3LEeyO3MDpaqvbWg" key="codegenDirectory" value="/Admin/src"/>
+        <details xmi:id="_2_OBAG3LEeyO3MDpaqvbWg" key="AssociatedSourceCode" value="/Admin/src/Login/AdminLogin.java;1661783046/1;/Admin/src/Login/ForgotPass.java;30841240/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_27O44G3LEeyO3MDpaqvbWg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_27Pf8G3LEeyO3MDpaqvbWg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_27Pf8W3LEeyO3MDpaqvbWg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_27Pf8m3LEeyO3MDpaqvbWg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_27Pf823LEeyO3MDpaqvbWg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_27Pf9G3LEeyO3MDpaqvbWg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_27Pf9W3LEeyO3MDpaqvbWg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_27Pf9m3LEeyO3MDpaqvbWg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_27Pf923LEeyO3MDpaqvbWg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_27QHAG3LEeyO3MDpaqvbWg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_27QHAW3LEeyO3MDpaqvbWg" name="awt">
+        <packagedElement xmi:type="uml:Package" xmi:id="_27QHAm3LEeyO3MDpaqvbWg" name="event">
+          <packagedElement xmi:type="uml:Class" xmi:id="_275nQW3LEeyO3MDpaqvbWg" name="ActionEvent"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_276OUW3LEeyO3MDpaqvbWg" name="ActionListener"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_276OU23LEeyO3MDpaqvbWg" name="MouseAdapter"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_2761YW3LEeyO3MDpaqvbWg" name="MouseEvent"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_273yEG3LEeyO3MDpaqvbWg" name="Color"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_274ZIW3LEeyO3MDpaqvbWg" name="Container"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_274ZI23LEeyO3MDpaqvbWg" name="Dimension"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_275AMW3LEeyO3MDpaqvbWg" name="EventQueue"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_275AM23LEeyO3MDpaqvbWg" name="Font"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_275ANW3LEeyO3MDpaqvbWg" name="Toolkit"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_27QHA23LEeyO3MDpaqvbWg" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_277ccG3LEeyO3MDpaqvbWg" name="IOException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_277ccm3LEeyO3MDpaqvbWg" name="ObjectInputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_277cdG3LEeyO3MDpaqvbWg" name="ObjectOutputStream"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_27QHBG3LEeyO3MDpaqvbWg" name="net">
+        <packagedElement xmi:type="uml:Class" xmi:id="_278DgW3LEeyO3MDpaqvbWg" name="ConnectException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_278Dg23LEeyO3MDpaqvbWg" name="Socket"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_278qkW3LEeyO3MDpaqvbWg" name="SocketException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_278qk23LEeyO3MDpaqvbWg" name="UnknownHostException"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_27QHBW3LEeyO3MDpaqvbWg" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_27QHBm3LEeyO3MDpaqvbWg" name="swing">
+        <packagedElement xmi:type="uml:Package" xmi:id="_27QHB23LEeyO3MDpaqvbWg" name="border">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_28AU823LEeyO3MDpaqvbWg" name="Border"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_28A8AW3LEeyO3MDpaqvbWg" name="EmptyBorder"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_279RoW3LEeyO3MDpaqvbWg" name="BorderFactory"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_2794sW3LEeyO3MDpaqvbWg" name="ImageIcon"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_2794s23LEeyO3MDpaqvbWg" name="JButton"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_27-fwW3LEeyO3MDpaqvbWg" name="JFrame"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_27-fw23LEeyO3MDpaqvbWg" name="JLabel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_27_G0W3LEeyO3MDpaqvbWg" name="JOptionPane"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_27_G023LEeyO3MDpaqvbWg" name="JPanel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_27_t4W3LEeyO3MDpaqvbWg" name="JPasswordField"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_27_t423LEeyO3MDpaqvbWg" name="JTextPane"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_28AU8W3LEeyO3MDpaqvbWg" name="Timer"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_27QuEG3LEeyO3MDpaqvbWg" name="Admin">
+      <packagedElement xmi:type="uml:Class" xmi:id="_28A8A23LEeyO3MDpaqvbWg" name="AdminFrame"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_27QuEW3LEeyO3MDpaqvbWg" name="CommonClasses">
+      <packagedElement xmi:type="uml:Class" xmi:id="_28BjEW3LEeyO3MDpaqvbWg" name="AdminInfo"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_27R8MG3LEeyO3MDpaqvbWg" name="Login">
+      <packagedElement xmi:type="uml:Class" xmi:id="_27WNoG3LEeyO3MDpaqvbWg" name="AdminLogin">
+        <generalization xmi:id="_28IQwG3LEeyO3MDpaqvbWg" general="_27-fwW3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28MiMG3LEeyO3MDpaqvbWg" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_28MiMW3LEeyO3MDpaqvbWg" value="1L"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_28MiMm3LEeyO3MDpaqvbWg" name="contentPane" visibility="private" type="_27_G023LEeyO3MDpaqvbWg" association="_28gEMG3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28NJQG3LEeyO3MDpaqvbWg" name="n">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_28NJQm3LEeyO3MDpaqvbWg" name="username">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_28NwUG3LEeyO3MDpaqvbWg" name="thisframe" type="_27WNoG3LEeyO3MDpaqvbWg" association="_28grQW3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28NwUm3LEeyO3MDpaqvbWg" name="c" isStatic="true" type="_274ZIW3LEeyO3MDpaqvbWg" association="_28grRG3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28OXYG3LEeyO3MDpaqvbWg" name="c2" isStatic="true" type="_278Dg23LEeyO3MDpaqvbWg" association="_28hSUW3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28OXYm3LEeyO3MDpaqvbWg" name="input" isStatic="true" type="_277ccm3LEeyO3MDpaqvbWg" association="_28hSVG3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28O-cW3LEeyO3MDpaqvbWg" name="output" isStatic="true" type="_277cdG3LEeyO3MDpaqvbWg" association="_28h5YW3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28O-c23LEeyO3MDpaqvbWg" name="admin" isStatic="true" type="_28BjEW3LEeyO3MDpaqvbWg" association="_28igcG3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28PlgG3LEeyO3MDpaqvbWg" name="icon" type="_2794sW3LEeyO3MDpaqvbWg" association="_28igc23LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28Plg23LEeyO3MDpaqvbWg" name="label3" type="_27-fw23LEeyO3MDpaqvbWg" association="_28jHgW3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28PlhW3LEeyO3MDpaqvbWg" name="panel" type="_27_G023LEeyO3MDpaqvbWg" association="_28jHhG3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28QMkW3LEeyO3MDpaqvbWg" name="forgotpass" type="_27cUQG3LEeyO3MDpaqvbWg" association="_28jukW3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28QMk23LEeyO3MDpaqvbWg" name="lblNewLabel" type="_27-fw23LEeyO3MDpaqvbWg" association="_28julG3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28Qzom3LEeyO3MDpaqvbWg" name="textPane" type="_27_t423LEeyO3MDpaqvbWg" association="_28kVoW3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28RasW3LEeyO3MDpaqvbWg" name="password" type="_27_t4W3LEeyO3MDpaqvbWg" association="_28kVpG3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28Ras23LEeyO3MDpaqvbWg" name="btnNewButton_1" type="_2794s23LEeyO3MDpaqvbWg" association="_28k8sW3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28SBwW3LEeyO3MDpaqvbWg" name="screenSize" type="_274ZI23LEeyO3MDpaqvbWg" association="_28k8tG3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28SBw23LEeyO3MDpaqvbWg" name="lblAdminPortal" visibility="private" type="_27-fw23LEeyO3MDpaqvbWg" association="_28ljwG3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28SBxW3LEeyO3MDpaqvbWg" name="label_1" visibility="private" type="_27-fw23LEeyO3MDpaqvbWg" association="_28ljw23LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28YIYG3LEeyO3MDpaqvbWg" name="pass">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_28YvcG3LEeyO3MDpaqvbWg" name="icon2" type="_2794sW3LEeyO3MDpaqvbWg" association="_28nY8W3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28ZWgG3LEeyO3MDpaqvbWg" name="lblNewLabel_1" type="_27-fw23LEeyO3MDpaqvbWg" association="_28nY9G3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28ZWg23LEeyO3MDpaqvbWg" name="label" type="_27-fw23LEeyO3MDpaqvbWg" association="_28oAAW3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28ZWhm3LEeyO3MDpaqvbWg" name="lblPleaseFillAll" type="_27-fw23LEeyO3MDpaqvbWg" association="_28onEW3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28Z9km3LEeyO3MDpaqvbWg" name="lblPleaseFillValid" type="_27-fw23LEeyO3MDpaqvbWg" association="_28onFG3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28Z9lW3LEeyO3MDpaqvbWg" name="btnNewButton" type="_2794s23LEeyO3MDpaqvbWg" association="_28pOIW3LEeyO3MDpaqvbWg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_28WTMG3LEeyO3MDpaqvbWg" name="main" specification="_27XbwG3LEeyO3MDpaqvbWg">
+          <ownedParameter xmi:id="_28WTMW3LEeyO3MDpaqvbWg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_28WTMm3LEeyO3MDpaqvbWg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					admin = new AdminInfo();
+					AdminLogin frame = new AdminLogin();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_28W6QG3LEeyO3MDpaqvbWg" name="AdminLogin" specification="_27Yp4G3LEeyO3MDpaqvbWg">
+          <ownedParameter xmi:id="_28W6QW3LEeyO3MDpaqvbWg" type="_27WNoG3LEeyO3MDpaqvbWg" direction="return"/>
+          <language>java</language>
+          <body>// setExtendedState(java.awt.Frame.MAXIMIZED_BOTH);
+		setLocationRelativeTo(null);
+
+		try {
+			c2 = new Socket(&quot;localhost&quot;, 9783);
+			output = new ObjectOutputStream(c2.getOutputStream());
+			input = new ObjectInputStream(c2.getInputStream());
+		} catch (ConnectException e) {
+			JOptionPane.showMessageDialog(null, &quot;Server Down&quot;);
+			System.exit(0);
+		}
+
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+		setBounds(0, 0, 1366, 768);
+		setTitle(&quot;Login Portal&quot;);
+		icon = new ImageIcon(&quot;F:\\Software\\eclipse\\projects\\Online Auction\\ProjectImages\\index.png&quot;);
+		setIconImage(icon.getImage());
+
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+
+		lblAdminPortal = new JLabel(&quot;Admin Portal&quot;);
+		lblAdminPortal.setBounds(564, 140, 174, 26);
+		lblAdminPortal.setFont(new Font(&quot;Dialog&quot;, Font.BOLD, 20));
+		contentPane.add(lblAdminPortal);
+		lblAdminPortal.setForeground(Color.WHITE);
+
+		icon2 = new ImageIcon(&quot;F:\\Software\\eclipse\\projects\\Online Auction\\ProjectImages\\login.jpg&quot;);
+
+		panel = new JPanel();
+		panel.setForeground(new Color(154, 205, 50));
+		panel.setBackground(new Color(0, 255, 127));
+		panel.setBounds(340, 171, 594, 411);
+		panel.setLayout(null);
+		contentPane.add(panel);
+
+		label_1 = new JLabel(&quot;ONLINE AUCTION LOGIN&quot;);
+		label_1.setForeground(new Color(255, 255, 255));
+		label_1.setFont(new Font(&quot;Dialog&quot;, Font.BOLD, 25));
+		label_1.setBounds(469, 83, 354, 60);
+		contentPane.add(label_1);
+
+		forgotpass = new ForgotPass(this, input, output);
+		getContentPane().add(forgotpass);
+		forgotpass.setVisible(false);
+
+		lblNewLabel = new JLabel(&quot;&quot;);
+		lblNewLabel
+				.setIcon(new ImageIcon(&quot;F:\\Software\\eclipse\\projects\\Online Auction\\ProjectImages\\Login2.png&quot;));
+		lblNewLabel.setBounds(250, 12, 100, 100);
+		panel.add(lblNewLabel);
+
+		textPane = new JTextPane();
+		textPane.setBounds(92, 124, 414, 37);
+		textPane.setFont(new Font(&quot;Arial&quot;, Font.PLAIN, 25));
+		panel.add(textPane);
+
+		lblNewLabel_1 = new JLabel(&quot;&quot;);
+		lblNewLabel_1
+				.setIcon(new ImageIcon(&quot;F:\\Software\\eclipse\\projects\\Online Auction\\ProjectImages\\User5.png&quot;));
+		lblNewLabel_1.setBounds(49, 124, 37, 37);
+		panel.add(lblNewLabel_1);
+
+		password = new JPasswordField();
+		password.setBounds(92, 173, 414, 37);
+		password.setFont(new Font(&quot;Arial&quot;, Font.PLAIN, 25));
+		panel.add(password);
+
+		label = new JLabel(&quot;&quot;);
+		label.setIcon(new ImageIcon(&quot;F:\\Software\\eclipse\\projects\\Online Auction\\ProjectImages\\pwd3.png&quot;));
+		label.setBounds(49, 173, 37, 37);
+		panel.add(label);
+
+		btnNewButton_1 = new JButton(&quot;Forgot Password?&quot;);
+		btnNewButton_1.setFont(new Font(&quot;Arial&quot;, Font.BOLD, 16));
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+
+				try {
+					output.reset();
+				} catch (SocketException e1) {
+					JOptionPane.showMessageDialog(null, &quot;Server Down&quot;);
+					return;
+				} catch (IOException e) {
+
+					e.printStackTrace();
+				}
+				panel.setVisible(false);
+				forgotpass.setVisible(true);
+			}
+		});
+		btnNewButton_1.addMouseListener(new MouseAdapter() {
+			public void mouseExited(MouseEvent e) {
+
+				btnNewButton_1.setForeground(new Color(0, 100, 0));
+			}
+
+			public void mouseEntered(MouseEvent e) {
+
+				btnNewButton_1.setForeground(new Color(77, 153, 0));
+			}
+		});
+		btnNewButton_1.setForeground(new Color(0, 100, 0));
+		btnNewButton_1.setBackground(new Color(0, 255, 127));
+		btnNewButton_1.setFocusable(false);
+		btnNewButton_1.setBorder(null);
+		btnNewButton_1.setBounds(339, 305, 171, 19);
+		panel.add(btnNewButton_1);
+
+		label3 = new JLabel(icon2);
+		label3.setBounds(0, 0, screenSize.width, screenSize.height);
+		contentPane.add(label3);
+
+		lblPleaseFillAll = new JLabel(&quot;Please fill all the fields&quot;);
+		lblPleaseFillAll.setForeground(new Color(178, 34, 34));
+		lblPleaseFillAll.setBounds(223, 234, 161, 15);
+		lblPleaseFillAll.setVisible(false);
+		panel.add(lblPleaseFillAll);
+
+		lblPleaseFillValid = new JLabel(&quot;Please fill valid credentials&quot;);
+		lblPleaseFillValid.setForeground(new Color(139, 0, 0));
+		lblPleaseFillValid.setBounds(199, 234, 196, 15);
+		lblPleaseFillValid.setVisible(false);
+		panel.add(lblPleaseFillValid);
+
+		thisframe = this;
+		btnNewButton = new JButton(&quot;LOGIN&quot;);
+		btnNewButton.setBackground(new Color(0, 128, 0));
+		btnNewButton.setForeground(Color.WHITE);
+		btnNewButton.setBounds(92, 261, 414, 37);
+		btnNewButton.setFont(new Font(&quot;Arial&quot;, Font.BOLD, 17));
+		btnNewButton.setFocusable(false);
+		btnNewButton.addActionListener(new ActionListener() {
+			@SuppressWarnings(&quot;deprecation&quot;)
+			public void actionPerformed(ActionEvent arg0) {
+
+				try {
+					output.reset();
+				} catch (SocketException e1) {
+					JOptionPane.showMessageDialog(null, &quot;Server Down&quot;);
+					return;
+				} catch (IOException e) {
+
+					e.printStackTrace();
+				}
+
+				if (textPane.getText().isEmpty() || password.getText().isEmpty()) {
+					lblPleaseFillAll.setVisible(true);
+
+					Timer t = new Timer(2000, new ActionListener() {
+						public void actionPerformed(ActionEvent e) {
+							lblPleaseFillAll.setVisible(false);
+						}
+					});
+					t.start();
+					t.setRepeats(false);
+					return;
+				}
+				username = textPane.getText();
+				pass = password.getText();
+				textPane.setText(&quot;&quot;);
+				password.setText(&quot;&quot;);
+				try {
+					admin.name = username;
+					admin.password = pass;
+					output.writeObject(admin);
+					output.reset();
+					n = (boolean) input.readObject();
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+				if (n) {
+					AdminFrame frame;
+					try {
+						frame = new AdminFrame(thisframe, input, output);
+						frame.setVisible(true);
+						thisframe.setVisible(false);
+					} catch (Exception e) {
+						e.printStackTrace();
+					}
+				} else {
+					lblPleaseFillValid.setVisible(true);
+
+					Timer t = new Timer(2000, new ActionListener() {
+						public void actionPerformed(ActionEvent e) {
+							lblPleaseFillValid.setVisible(false);
+						}
+					});
+					t.start();
+					t.setRepeats(false);
+					return;
+				}
+			}
+		});
+		btnNewButton.addMouseListener(new MouseAdapter() {
+			public void mouseExited(MouseEvent e) {
+
+				btnNewButton.setBackground(new Color(0, 128, 0));
+				btnNewButton.setForeground(Color.white);
+			}
+
+			public void mouseEntered(MouseEvent e) {
+
+				btnNewButton.setBackground(new Color(50, 205, 50));
+				btnNewButton.setForeground(Color.white);
+			}
+		});
+		panel.add(btnNewButton);
+		Border emptyBorder = BorderFactory.createEmptyBorder();
+		btnNewButton.setBorder(emptyBorder);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_27XbwG3LEeyO3MDpaqvbWg" name="main" isStatic="true" method="_28WTMG3LEeyO3MDpaqvbWg">
+          <ownedParameter xmi:id="_27YC0G3LEeyO3MDpaqvbWg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_27YC0W3LEeyO3MDpaqvbWg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_27Yp4G3LEeyO3MDpaqvbWg" name="AdminLogin" method="_28W6QG3LEeyO3MDpaqvbWg" raisedException="_278qk23LEeyO3MDpaqvbWg _277ccG3LEeyO3MDpaqvbWg">
+          <eAnnotations xmi:id="_27Yp4W3LEeyO3MDpaqvbWg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_27Yp4m3LEeyO3MDpaqvbWg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_27Yp423LEeyO3MDpaqvbWg" type="_27WNoG3LEeyO3MDpaqvbWg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_27cUQG3LEeyO3MDpaqvbWg" name="ForgotPass">
+        <generalization xmi:id="_28KtB23LEeyO3MDpaqvbWg" general="_27_G023LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28TP4G3LEeyO3MDpaqvbWg" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_28TP4W3LEeyO3MDpaqvbWg" value="1L"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_28TP4m3LEeyO3MDpaqvbWg" name="name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_28T28G3LEeyO3MDpaqvbWg" name="admin" type="_28BjEW3LEeyO3MDpaqvbWg" association="_28ljxm3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28T28m3LEeyO3MDpaqvbWg" name="n">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_28T29G3LEeyO3MDpaqvbWg" name="lblNewLabel_1" type="_27-fw23LEeyO3MDpaqvbWg" association="_28mK0W3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28UeAm3LEeyO3MDpaqvbWg" name="textPane" type="_27_t423LEeyO3MDpaqvbWg" association="_28mK1G3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28VFEm3LEeyO3MDpaqvbWg" name="textPane_1" type="_27_t4W3LEeyO3MDpaqvbWg" association="_28mx4W3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28VFFW3LEeyO3MDpaqvbWg" name="btnNewButton" type="_2794s23LEeyO3MDpaqvbWg" association="_28mx5G3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28akom3LEeyO3MDpaqvbWg" name="pass1">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_28bLsW3LEeyO3MDpaqvbWg" name="pass2">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_28bLtG3LEeyO3MDpaqvbWg" name="nickname">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_28bywW3LEeyO3MDpaqvbWg" name="lblNewPassword" type="_27-fw23LEeyO3MDpaqvbWg" association="_28pOJG3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28byxG3LEeyO3MDpaqvbWg" name="lblConfirmPassword" type="_27-fw23LEeyO3MDpaqvbWg" association="_28p1MW3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28byx23LEeyO3MDpaqvbWg" name="lblPleaseEnterThe" type="_27-fw23LEeyO3MDpaqvbWg" association="_28p1NG3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28cZ0W3LEeyO3MDpaqvbWg" name="lblPleaseEnterThe2" type="_27-fw23LEeyO3MDpaqvbWg" association="_28qcQG3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28cZ1G3LEeyO3MDpaqvbWg" name="lblPleaseEnterThe3" type="_27-fw23LEeyO3MDpaqvbWg" association="_28qcQ23LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28cZ123LEeyO3MDpaqvbWg" name="lblPleaseEnterThe5" type="_27-fw23LEeyO3MDpaqvbWg" association="_28qcRm3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28cZ2m3LEeyO3MDpaqvbWg" name="lblUsername" type="_27-fw23LEeyO3MDpaqvbWg" association="_28rDUW3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28dA4m3LEeyO3MDpaqvbWg" name="lblPleaseEnterThe4" type="_27-fw23LEeyO3MDpaqvbWg" association="_28rDVG3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28dA5W3LEeyO3MDpaqvbWg" name="lblPleaseFillValid" type="_27-fw23LEeyO3MDpaqvbWg" association="_28rqYW3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28dA6G3LEeyO3MDpaqvbWg" name="lblResetPassword" type="_27-fw23LEeyO3MDpaqvbWg" association="_28rqZG3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28dn8W3LEeyO3MDpaqvbWg" name="textPane_3" type="_27_t423LEeyO3MDpaqvbWg" association="_28sRcW3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28dn9G3LEeyO3MDpaqvbWg" name="textPane_2" type="_27_t4W3LEeyO3MDpaqvbWg" association="_28sRdG3LEeyO3MDpaqvbWg"/>
+        <ownedAttribute xmi:id="_28ePAm3LEeyO3MDpaqvbWg" name="button" type="_2794s23LEeyO3MDpaqvbWg" association="_28s4gW3LEeyO3MDpaqvbWg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_28XhUG3LEeyO3MDpaqvbWg" name="ForgotPass" specification="_28KtAG3LEeyO3MDpaqvbWg">
+          <ownedParameter xmi:id="_28XhUW3LEeyO3MDpaqvbWg" name="parent" type="_27WNoG3LEeyO3MDpaqvbWg"/>
+          <ownedParameter xmi:id="_28XhUm3LEeyO3MDpaqvbWg" name="input" type="_277ccm3LEeyO3MDpaqvbWg"/>
+          <ownedParameter xmi:id="_28XhU23LEeyO3MDpaqvbWg" name="output" type="_277cdG3LEeyO3MDpaqvbWg"/>
+          <ownedParameter xmi:id="_28XhVG3LEeyO3MDpaqvbWg" type="_27cUQG3LEeyO3MDpaqvbWg" direction="return"/>
+          <language>java</language>
+          <body>setBackground(new Color(0, 250, 154));
+		setBounds(338, 171, 594, 535);
+		setLayout(null);
+		
+		lblNewLabel_1 = new JLabel(&quot;What is your nick name?&quot;);
+		lblNewLabel_1.setForeground(new Color(0, 0, 139));
+		lblNewLabel_1.setBounds(81, 184, 253, 25);
+		lblNewLabel_1.setFont(new Font(&quot;Dialog&quot;, Font.PLAIN, 20));
+		add(lblNewLabel_1);
+		
+		textPane = new JTextPane();
+		textPane.setBounds(81, 209, 428, 37);
+		textPane.setFont(new Font(&quot;Arial&quot;, Font.PLAIN, 25));
+		add(textPane);
+		
+		textPane_1 = new JPasswordField();
+		textPane_1.setFont(new Font(&quot;Dialog&quot;, Font.PLAIN, 25));
+		textPane_1.setBounds(81, 299, 428, 37);
+		add(textPane_1);
+		
+		textPane_2 = new JPasswordField();
+		textPane_2.setFont(new Font(&quot;Dialog&quot;, Font.PLAIN, 25));
+		textPane_2.setBounds(81, 388, 428, 37);
+		add(textPane_2);
+		
+		lblNewPassword = new JLabel(&quot;New Password&quot;);
+		lblNewPassword.setForeground(new Color(0, 0, 139));
+		lblNewPassword.setBounds(81, 272, 150, 30);
+		lblNewPassword.setFont(new Font(&quot;Dialog&quot;, Font.PLAIN, 20));
+		add(lblNewPassword);
+		
+		lblConfirmPassword = new JLabel(&quot;Confirm Password&quot;);
+		lblConfirmPassword.setForeground(new Color(0, 0, 139));
+		lblConfirmPassword.setFont(new Font(&quot;Dialog&quot;, Font.PLAIN, 20));
+		lblConfirmPassword.setBounds(81, 358, 187, 37);
+		add(lblConfirmPassword);
+		
+		lblPleaseEnterThe = new JLabel(&quot;Please Enter the valid text&quot;);
+		lblPleaseEnterThe.setForeground(new Color(178, 34, 34));
+		lblPleaseEnterThe.setVisible(false);
+		lblPleaseEnterThe.setBounds(81, 245, 225, 15);
+		add(lblPleaseEnterThe);
+		
+		lblPleaseEnterThe2 = new JLabel(&quot;Please Enter the valid text&quot;);
+		lblPleaseEnterThe2.setForeground(new Color(178, 34, 34));
+		lblPleaseEnterThe2.setVisible(false);
+		lblPleaseEnterThe2.setBounds(81, 336, 225, 15);
+		add(lblPleaseEnterThe2);
+		
+		lblPleaseEnterThe3 = new JLabel(&quot;Please Enter the valid text&quot;);
+		lblPleaseEnterThe3.setForeground(new Color(178, 34, 34));
+		lblPleaseEnterThe3.setVisible(false);
+		lblPleaseEnterThe3.setBounds(81, 424, 225, 15);
+		add(lblPleaseEnterThe3);
+		
+		lblPleaseEnterThe5 = new JLabel(&quot;Password not matched&quot;);
+		lblPleaseEnterThe5.setForeground(new Color(178, 34, 34));
+		lblPleaseEnterThe5.setVisible(false);
+		lblPleaseEnterThe5.setBounds(81, 425, 225, 15);
+		add(lblPleaseEnterThe5);
+		
+		lblUsername = new JLabel(&quot;User_name&quot;);
+		lblUsername.setForeground(new Color(0, 0, 139));
+		lblUsername.setBounds(81, 98, 123, 15);
+		lblUsername.setFont(new Font(&quot;Dialog&quot;, Font.PLAIN, 20));
+		add(lblUsername);
+		
+		textPane_3 = new JTextPane();
+		textPane_3.setBounds(81, 118, 428, 37);
+		textPane_3.setFont(new Font(&quot;Arial&quot;, Font.PLAIN, 25));
+		add(textPane_3);
+		
+		lblPleaseEnterThe4 = new JLabel(&quot;Please enter the valid text&quot;);
+		lblPleaseEnterThe4.setForeground(new Color(178, 34, 34));
+		lblPleaseEnterThe4.setBounds(81, 154, 198, 15);
+		lblPleaseEnterThe4.setVisible(false);
+		add(lblPleaseEnterThe4);
+		
+		lblPleaseFillValid = new JLabel(&quot;Please fill valid credentials&quot;);
+		lblPleaseFillValid.setForeground(new Color(178, 34, 34));
+		lblPleaseFillValid.setBounds(197, 440, 198, 15);
+		lblPleaseFillValid.setVisible(false);		
+		add(lblPleaseFillValid);
+		
+		btnNewButton = new JButton(&quot;CHANGE PASSWORD&quot;);
+		btnNewButton.addActionListener(new ActionListener() {
+			@SuppressWarnings(&quot;deprecation&quot;)
+			public void actionPerformed(ActionEvent arg0) {
+				
+				try {
+					output.reset();
+				} catch (SocketException e1) 
+				{	
+					JOptionPane.showMessageDialog(null,&quot;Server Down&quot;);
+					return;
+				}
+				catch (IOException e) {
+					
+					e.printStackTrace();
+				}
+				
+				if(textPane_3.getText().isEmpty() || textPane.getText().isEmpty() || textPane_1.getText().isEmpty() || textPane_2.getText().isEmpty())
+				{
+				   if(textPane.getText().isEmpty())
+						lblPleaseEnterThe.setVisible(true);
+				   if(textPane_1.getText().isEmpty())
+						lblPleaseEnterThe2.setVisible(true);
+				   if(textPane_2.getText().isEmpty())
+						lblPleaseEnterThe3.setVisible(true);
+				   if(textPane_3.getText().isEmpty())
+						lblPleaseEnterThe4.setVisible(true);
+					
+					Timer t=new Timer(2000,new ActionListener() 
+					{
+						public void actionPerformed(ActionEvent e)
+						{
+						   if(textPane.getText().isEmpty())
+								lblPleaseEnterThe.setVisible(false);
+						   if(textPane_1.getText().isEmpty())
+								lblPleaseEnterThe2.setVisible(false);
+						   if(textPane_2.getText().isEmpty())
+								lblPleaseEnterThe3.setVisible(false);
+						   if(textPane_3.getText().isEmpty())
+								lblPleaseEnterThe4.setVisible(false);
+						}
+					});
+					t.start();
+					t.setRepeats(false);
+					return;
+				}
+				name=textPane_3.getText();
+				nickname=textPane.getText();
+				pass1=textPane_1.getText();
+				pass2=textPane_2.getText();
+				if(!pass1.equals(pass2))
+				{
+					textPane_1.setText(&quot;&quot;);
+					textPane_2.setText(&quot;&quot;);
+					lblPleaseEnterThe5.setVisible(true);
+					Timer t=new Timer(2000,new ActionListener() 
+					{
+						public void actionPerformed(ActionEvent e)
+						{
+							lblPleaseEnterThe5.setVisible(false);
+						}
+					});
+					t.start();
+					t.setRepeats(false);
+					return;
+				}
+				try 
+				{
+					admin=new AdminInfo();
+					admin.name=name;
+					admin.password=pass1;
+					admin.nickname=nickname;
+					output.writeObject(admin);
+					output.reset();
+					n=(boolean) input.readObject();
+				}
+				catch (Exception e)
+				{
+					e.printStackTrace();
+				}
+				if(n)
+				{
+					parent.panel.setVisible(true);
+					setVisible(false);
+				}
+				else
+				{
+					lblPleaseFillValid.setVisible(true);
+					
+					Timer t=new Timer(2000,new ActionListener() 
+					{
+						public void actionPerformed(ActionEvent e)
+						{
+							lblPleaseFillValid.setVisible(false);
+						}
+					});
+					t.start();
+					t.setRepeats(false);
+				}
+				textPane.setText(&quot;&quot;);
+				textPane_1.setText(&quot;&quot;);
+				textPane_2.setText(&quot;&quot;);
+				textPane_3.setText(&quot;&quot;);
+			}
+		});
+		btnNewButton.setBounds(176, 468, 237, 34);
+		btnNewButton.setForeground(Color.WHITE);
+		btnNewButton.setFont(new Font(&quot;Dialog&quot;, Font.BOLD, 17));
+		btnNewButton.setBackground(new Color(0, 128, 0));
+		add(btnNewButton);
+		
+		lblResetPassword = new JLabel(&quot;RESET PASSWORD&quot;);
+		lblResetPassword.setBackground(new Color(0, 250, 154));
+		lblResetPassword.setForeground(new Color(0, 0, 139));
+		lblResetPassword.setBounds(187, 31, 208, 42);
+		lblResetPassword.setFont(new Font(&quot;Dialog&quot;, Font.BOLD, 20));
+		add(lblResetPassword);
+		
+		button = new JButton(&quot;&quot;);
+		button.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+				parent.panel.setVisible(true);
+				setVisible(false);
+			}
+		});
+		button.setBackground(new Color(0, 128, 0));
+		button.setFocusable(false);
+		button.setIcon(new ImageIcon(&quot;F:\\Software\\eclipse\\projects\\Online Auction\\ProjectImages\\back5.png&quot;));
+		button.setBounds(12, 12, 50, 37);
+		add(button);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_28KtAG3LEeyO3MDpaqvbWg" name="ForgotPass" method="_28XhUG3LEeyO3MDpaqvbWg">
+          <eAnnotations xmi:id="_28KtBG3LEeyO3MDpaqvbWg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_28KtBW3LEeyO3MDpaqvbWg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_28KtAW3LEeyO3MDpaqvbWg" name="parent" type="_27WNoG3LEeyO3MDpaqvbWg"/>
+          <ownedParameter xmi:id="_28KtAm3LEeyO3MDpaqvbWg" name="input" type="_277ccm3LEeyO3MDpaqvbWg"/>
+          <ownedParameter xmi:id="_28KtA23LEeyO3MDpaqvbWg" name="output" type="_277cdG3LEeyO3MDpaqvbWg"/>
+          <ownedParameter xmi:id="_28KtBm3LEeyO3MDpaqvbWg" type="_27cUQG3LEeyO3MDpaqvbWg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28gEMG3LEeyO3MDpaqvbWg" name="" memberEnd="_28gEMW3LEeyO3MDpaqvbWg _28MiMm3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28gEMW3LEeyO3MDpaqvbWg" name="" type="_27WNoG3LEeyO3MDpaqvbWg" association="_28gEMG3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28grQW3LEeyO3MDpaqvbWg" name="" memberEnd="_28grQm3LEeyO3MDpaqvbWg _28NwUG3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28grQm3LEeyO3MDpaqvbWg" name="" type="_27WNoG3LEeyO3MDpaqvbWg" association="_28grQW3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28grRG3LEeyO3MDpaqvbWg" name="" memberEnd="_28grRW3LEeyO3MDpaqvbWg _28NwUm3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28grRW3LEeyO3MDpaqvbWg" name="" type="_27WNoG3LEeyO3MDpaqvbWg" association="_28grRG3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28hSUW3LEeyO3MDpaqvbWg" name="" memberEnd="_28hSUm3LEeyO3MDpaqvbWg _28OXYG3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28hSUm3LEeyO3MDpaqvbWg" name="" type="_27WNoG3LEeyO3MDpaqvbWg" association="_28hSUW3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28hSVG3LEeyO3MDpaqvbWg" name="" memberEnd="_28hSVW3LEeyO3MDpaqvbWg _28OXYm3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28hSVW3LEeyO3MDpaqvbWg" name="" type="_27WNoG3LEeyO3MDpaqvbWg" association="_28hSVG3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28h5YW3LEeyO3MDpaqvbWg" name="" memberEnd="_28h5Ym3LEeyO3MDpaqvbWg _28O-cW3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28h5Ym3LEeyO3MDpaqvbWg" name="" type="_27WNoG3LEeyO3MDpaqvbWg" association="_28h5YW3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28igcG3LEeyO3MDpaqvbWg" name="" memberEnd="_28igcW3LEeyO3MDpaqvbWg _28O-c23LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28igcW3LEeyO3MDpaqvbWg" name="" type="_27WNoG3LEeyO3MDpaqvbWg" association="_28igcG3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28igc23LEeyO3MDpaqvbWg" name="" memberEnd="_28igdG3LEeyO3MDpaqvbWg _28PlgG3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28igdG3LEeyO3MDpaqvbWg" name="" type="_27WNoG3LEeyO3MDpaqvbWg" association="_28igc23LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28jHgW3LEeyO3MDpaqvbWg" name="" memberEnd="_28jHgm3LEeyO3MDpaqvbWg _28Plg23LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28jHgm3LEeyO3MDpaqvbWg" name="" type="_27WNoG3LEeyO3MDpaqvbWg" association="_28jHgW3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28jHhG3LEeyO3MDpaqvbWg" name="" memberEnd="_28jHhW3LEeyO3MDpaqvbWg _28PlhW3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28jHhW3LEeyO3MDpaqvbWg" name="" type="_27WNoG3LEeyO3MDpaqvbWg" association="_28jHhG3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28jukW3LEeyO3MDpaqvbWg" name="" memberEnd="_28jukm3LEeyO3MDpaqvbWg _28QMkW3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28jukm3LEeyO3MDpaqvbWg" name="" type="_27WNoG3LEeyO3MDpaqvbWg" association="_28jukW3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28julG3LEeyO3MDpaqvbWg" name="" memberEnd="_28julW3LEeyO3MDpaqvbWg _28QMk23LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28julW3LEeyO3MDpaqvbWg" name="" type="_27WNoG3LEeyO3MDpaqvbWg" association="_28julG3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28kVoW3LEeyO3MDpaqvbWg" name="" memberEnd="_28kVom3LEeyO3MDpaqvbWg _28Qzom3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28kVom3LEeyO3MDpaqvbWg" name="" type="_27WNoG3LEeyO3MDpaqvbWg" association="_28kVoW3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28kVpG3LEeyO3MDpaqvbWg" name="" memberEnd="_28kVpW3LEeyO3MDpaqvbWg _28RasW3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28kVpW3LEeyO3MDpaqvbWg" name="" type="_27WNoG3LEeyO3MDpaqvbWg" association="_28kVpG3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28k8sW3LEeyO3MDpaqvbWg" name="" memberEnd="_28k8sm3LEeyO3MDpaqvbWg _28Ras23LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28k8sm3LEeyO3MDpaqvbWg" name="" type="_27WNoG3LEeyO3MDpaqvbWg" association="_28k8sW3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28k8tG3LEeyO3MDpaqvbWg" name="" memberEnd="_28k8tW3LEeyO3MDpaqvbWg _28SBwW3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28k8tW3LEeyO3MDpaqvbWg" name="" type="_27WNoG3LEeyO3MDpaqvbWg" association="_28k8tG3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28ljwG3LEeyO3MDpaqvbWg" name="" memberEnd="_28ljwW3LEeyO3MDpaqvbWg _28SBw23LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28ljwW3LEeyO3MDpaqvbWg" name="" type="_27WNoG3LEeyO3MDpaqvbWg" association="_28ljwG3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28ljw23LEeyO3MDpaqvbWg" name="" memberEnd="_28ljxG3LEeyO3MDpaqvbWg _28SBxW3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28ljxG3LEeyO3MDpaqvbWg" name="" type="_27WNoG3LEeyO3MDpaqvbWg" association="_28ljw23LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28ljxm3LEeyO3MDpaqvbWg" name="" memberEnd="_28ljx23LEeyO3MDpaqvbWg _28T28G3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28ljx23LEeyO3MDpaqvbWg" name="" type="_27cUQG3LEeyO3MDpaqvbWg" association="_28ljxm3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28mK0W3LEeyO3MDpaqvbWg" name="" memberEnd="_28mK0m3LEeyO3MDpaqvbWg _28T29G3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28mK0m3LEeyO3MDpaqvbWg" name="" type="_27cUQG3LEeyO3MDpaqvbWg" association="_28mK0W3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28mK1G3LEeyO3MDpaqvbWg" name="" memberEnd="_28mK1W3LEeyO3MDpaqvbWg _28UeAm3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28mK1W3LEeyO3MDpaqvbWg" name="" type="_27cUQG3LEeyO3MDpaqvbWg" association="_28mK1G3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28mx4W3LEeyO3MDpaqvbWg" name="" memberEnd="_28mx4m3LEeyO3MDpaqvbWg _28VFEm3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28mx4m3LEeyO3MDpaqvbWg" name="" type="_27cUQG3LEeyO3MDpaqvbWg" association="_28mx4W3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28mx5G3LEeyO3MDpaqvbWg" name="" memberEnd="_28mx5W3LEeyO3MDpaqvbWg _28VFFW3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28mx5W3LEeyO3MDpaqvbWg" name="" type="_27cUQG3LEeyO3MDpaqvbWg" association="_28mx5G3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28nY8W3LEeyO3MDpaqvbWg" name="" memberEnd="_28nY8m3LEeyO3MDpaqvbWg _28YvcG3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28nY8m3LEeyO3MDpaqvbWg" name="" type="_27WNoG3LEeyO3MDpaqvbWg" association="_28nY8W3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28nY9G3LEeyO3MDpaqvbWg" name="" memberEnd="_28nY9W3LEeyO3MDpaqvbWg _28ZWgG3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28nY9W3LEeyO3MDpaqvbWg" name="" type="_27WNoG3LEeyO3MDpaqvbWg" association="_28nY9G3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28oAAW3LEeyO3MDpaqvbWg" name="" memberEnd="_28oAAm3LEeyO3MDpaqvbWg _28ZWg23LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28oAAm3LEeyO3MDpaqvbWg" name="" type="_27WNoG3LEeyO3MDpaqvbWg" association="_28oAAW3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28onEW3LEeyO3MDpaqvbWg" name="" memberEnd="_28onEm3LEeyO3MDpaqvbWg _28ZWhm3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28onEm3LEeyO3MDpaqvbWg" name="" type="_27WNoG3LEeyO3MDpaqvbWg" association="_28onEW3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28onFG3LEeyO3MDpaqvbWg" name="" memberEnd="_28onFW3LEeyO3MDpaqvbWg _28Z9km3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28onFW3LEeyO3MDpaqvbWg" name="" type="_27WNoG3LEeyO3MDpaqvbWg" association="_28onFG3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28pOIW3LEeyO3MDpaqvbWg" name="" memberEnd="_28pOIm3LEeyO3MDpaqvbWg _28Z9lW3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28pOIm3LEeyO3MDpaqvbWg" name="" type="_27WNoG3LEeyO3MDpaqvbWg" association="_28pOIW3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28pOJG3LEeyO3MDpaqvbWg" name="" memberEnd="_28pOJW3LEeyO3MDpaqvbWg _28bywW3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28pOJW3LEeyO3MDpaqvbWg" name="" type="_27cUQG3LEeyO3MDpaqvbWg" association="_28pOJG3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28p1MW3LEeyO3MDpaqvbWg" name="" memberEnd="_28p1Mm3LEeyO3MDpaqvbWg _28byxG3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28p1Mm3LEeyO3MDpaqvbWg" name="" type="_27cUQG3LEeyO3MDpaqvbWg" association="_28p1MW3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28p1NG3LEeyO3MDpaqvbWg" name="" memberEnd="_28p1NW3LEeyO3MDpaqvbWg _28byx23LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28p1NW3LEeyO3MDpaqvbWg" name="" type="_27cUQG3LEeyO3MDpaqvbWg" association="_28p1NG3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28qcQG3LEeyO3MDpaqvbWg" name="" memberEnd="_28qcQW3LEeyO3MDpaqvbWg _28cZ0W3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28qcQW3LEeyO3MDpaqvbWg" name="" type="_27cUQG3LEeyO3MDpaqvbWg" association="_28qcQG3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28qcQ23LEeyO3MDpaqvbWg" name="" memberEnd="_28qcRG3LEeyO3MDpaqvbWg _28cZ1G3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28qcRG3LEeyO3MDpaqvbWg" name="" type="_27cUQG3LEeyO3MDpaqvbWg" association="_28qcQ23LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28qcRm3LEeyO3MDpaqvbWg" name="" memberEnd="_28qcR23LEeyO3MDpaqvbWg _28cZ123LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28qcR23LEeyO3MDpaqvbWg" name="" type="_27cUQG3LEeyO3MDpaqvbWg" association="_28qcRm3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28rDUW3LEeyO3MDpaqvbWg" name="" memberEnd="_28rDUm3LEeyO3MDpaqvbWg _28cZ2m3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28rDUm3LEeyO3MDpaqvbWg" name="" type="_27cUQG3LEeyO3MDpaqvbWg" association="_28rDUW3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28rDVG3LEeyO3MDpaqvbWg" name="" memberEnd="_28rDVW3LEeyO3MDpaqvbWg _28dA4m3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28rDVW3LEeyO3MDpaqvbWg" name="" type="_27cUQG3LEeyO3MDpaqvbWg" association="_28rDVG3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28rqYW3LEeyO3MDpaqvbWg" name="" memberEnd="_28rqYm3LEeyO3MDpaqvbWg _28dA5W3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28rqYm3LEeyO3MDpaqvbWg" name="" type="_27cUQG3LEeyO3MDpaqvbWg" association="_28rqYW3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28rqZG3LEeyO3MDpaqvbWg" name="" memberEnd="_28rqZW3LEeyO3MDpaqvbWg _28dA6G3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28rqZW3LEeyO3MDpaqvbWg" name="" type="_27cUQG3LEeyO3MDpaqvbWg" association="_28rqZG3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28sRcW3LEeyO3MDpaqvbWg" name="" memberEnd="_28sRcm3LEeyO3MDpaqvbWg _28dn8W3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28sRcm3LEeyO3MDpaqvbWg" name="" type="_27cUQG3LEeyO3MDpaqvbWg" association="_28sRcW3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28sRdG3LEeyO3MDpaqvbWg" name="" memberEnd="_28sRdW3LEeyO3MDpaqvbWg _28dn9G3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28sRdW3LEeyO3MDpaqvbWg" name="" type="_27cUQG3LEeyO3MDpaqvbWg" association="_28sRdG3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28s4gW3LEeyO3MDpaqvbWg" name="" memberEnd="_28s4gm3LEeyO3MDpaqvbWg _28ePAm3LEeyO3MDpaqvbWg">
+        <ownedEnd xmi:id="_28s4gm3LEeyO3MDpaqvbWg" name="" type="_27cUQG3LEeyO3MDpaqvbWg" association="_28s4gW3LEeyO3MDpaqvbWg"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_211bgG3LEeyO3MDpaqvbWg">
+      <eAnnotations xmi:id="_211bgW3LEeyO3MDpaqvbWg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_211bgm3LEeyO3MDpaqvbWg" base_Package="_2kDvAG3LEeyO3MDpaqvbWg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Reference xmi:id="_274ZIG3LEeyO3MDpaqvbWg" base_Element="_273yEG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_274ZIm3LEeyO3MDpaqvbWg" base_Element="_274ZIW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_275AMG3LEeyO3MDpaqvbWg" base_Element="_274ZI23LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_275AMm3LEeyO3MDpaqvbWg" base_Element="_275AMW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_275ANG3LEeyO3MDpaqvbWg" base_Element="_275AM23LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_275nQG3LEeyO3MDpaqvbWg" base_Element="_275ANW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_276OUG3LEeyO3MDpaqvbWg" base_Element="_275nQW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_276OUm3LEeyO3MDpaqvbWg" base_Element="_276OUW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_2761YG3LEeyO3MDpaqvbWg" base_Element="_276OU23LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_2761Ym3LEeyO3MDpaqvbWg" base_Element="_2761YW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_277ccW3LEeyO3MDpaqvbWg" base_Element="_277ccG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_277cc23LEeyO3MDpaqvbWg" base_Element="_277ccm3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_278DgG3LEeyO3MDpaqvbWg" base_Element="_277cdG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_278Dgm3LEeyO3MDpaqvbWg" base_Element="_278DgW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_278qkG3LEeyO3MDpaqvbWg" base_Element="_278Dg23LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_278qkm3LEeyO3MDpaqvbWg" base_Element="_278qkW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_279RoG3LEeyO3MDpaqvbWg" base_Element="_278qk23LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_2794sG3LEeyO3MDpaqvbWg" base_Element="_279RoW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_2794sm3LEeyO3MDpaqvbWg" base_Element="_2794sW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_27-fwG3LEeyO3MDpaqvbWg" base_Element="_2794s23LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_27-fwm3LEeyO3MDpaqvbWg" base_Element="_27-fwW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_27_G0G3LEeyO3MDpaqvbWg" base_Element="_27-fw23LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_27_G0m3LEeyO3MDpaqvbWg" base_Element="_27_G0W3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_27_t4G3LEeyO3MDpaqvbWg" base_Element="_27_G023LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_27_t4m3LEeyO3MDpaqvbWg" base_Element="_27_t4W3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28AU8G3LEeyO3MDpaqvbWg" base_Element="_27_t423LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28AU8m3LEeyO3MDpaqvbWg" base_Element="_28AU8W3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28A8AG3LEeyO3MDpaqvbWg" base_Element="_28AU823LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28A8Am3LEeyO3MDpaqvbWg" base_Element="_28A8AW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28BjEG3LEeyO3MDpaqvbWg" base_Element="_28A8A23LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28BjEm3LEeyO3MDpaqvbWg" base_Element="_28BjEW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28MiM23LEeyO3MDpaqvbWg" base_Element="_28MiMm3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28NJQW3LEeyO3MDpaqvbWg" base_Element="_28NJQG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28NJQ23LEeyO3MDpaqvbWg" base_Property="_28NJQm3LEeyO3MDpaqvbWg" siblings="_28YIYG3LEeyO3MDpaqvbWg" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28NJRG3LEeyO3MDpaqvbWg" base_Element="_28NJQm3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28NwUW3LEeyO3MDpaqvbWg" base_Element="_28NwUG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28NwU23LEeyO3MDpaqvbWg" base_Element="_28NwUm3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28OXYW3LEeyO3MDpaqvbWg" base_Element="_28OXYG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28O-cG3LEeyO3MDpaqvbWg" base_Element="_28OXYm3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28O-cm3LEeyO3MDpaqvbWg" base_Element="_28O-cW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28O-dG3LEeyO3MDpaqvbWg" base_Element="_28O-c23LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28PlgW3LEeyO3MDpaqvbWg" base_Property="_28PlgG3LEeyO3MDpaqvbWg" siblings="_28YvcG3LEeyO3MDpaqvbWg" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28Plgm3LEeyO3MDpaqvbWg" base_Element="_28PlgG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28PlhG3LEeyO3MDpaqvbWg" base_Element="_28Plg23LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28QMkG3LEeyO3MDpaqvbWg" base_Element="_28PlhW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28QMkm3LEeyO3MDpaqvbWg" base_Element="_28QMkW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28QzoG3LEeyO3MDpaqvbWg" base_Property="_28QMk23LEeyO3MDpaqvbWg" siblings="_28ZWgG3LEeyO3MDpaqvbWg _28ZWg23LEeyO3MDpaqvbWg _28ZWhm3LEeyO3MDpaqvbWg _28Z9km3LEeyO3MDpaqvbWg" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28QzoW3LEeyO3MDpaqvbWg" base_Element="_28QMk23LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28RasG3LEeyO3MDpaqvbWg" base_Element="_28Qzom3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28Rasm3LEeyO3MDpaqvbWg" base_Element="_28RasW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28RatG3LEeyO3MDpaqvbWg" base_Property="_28Ras23LEeyO3MDpaqvbWg" siblings="_28Z9lW3LEeyO3MDpaqvbWg" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28SBwG3LEeyO3MDpaqvbWg" base_Element="_28Ras23LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28SBwm3LEeyO3MDpaqvbWg" base_Element="_28SBwW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28SBxG3LEeyO3MDpaqvbWg" base_Element="_28SBw23LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28So0G3LEeyO3MDpaqvbWg" base_Element="_28SBxW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28TP423LEeyO3MDpaqvbWg" base_Property="_28TP4m3LEeyO3MDpaqvbWg" siblings="_28akom3LEeyO3MDpaqvbWg _28bLsW3LEeyO3MDpaqvbWg _28bLtG3LEeyO3MDpaqvbWg" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28TP5G3LEeyO3MDpaqvbWg" base_Element="_28TP4m3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28T28W3LEeyO3MDpaqvbWg" base_Element="_28T28G3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28T2823LEeyO3MDpaqvbWg" base_Element="_28T28m3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28UeAG3LEeyO3MDpaqvbWg" base_Property="_28T29G3LEeyO3MDpaqvbWg" siblings="_28bywW3LEeyO3MDpaqvbWg _28byxG3LEeyO3MDpaqvbWg _28byx23LEeyO3MDpaqvbWg _28cZ0W3LEeyO3MDpaqvbWg _28cZ1G3LEeyO3MDpaqvbWg _28cZ123LEeyO3MDpaqvbWg _28cZ2m3LEeyO3MDpaqvbWg _28dA4m3LEeyO3MDpaqvbWg _28dA5W3LEeyO3MDpaqvbWg _28dA6G3LEeyO3MDpaqvbWg" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28UeAW3LEeyO3MDpaqvbWg" base_Element="_28T29G3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28VFEG3LEeyO3MDpaqvbWg" base_Property="_28UeAm3LEeyO3MDpaqvbWg" siblings="_28dn8W3LEeyO3MDpaqvbWg" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28VFEW3LEeyO3MDpaqvbWg" base_Element="_28UeAm3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28VFE23LEeyO3MDpaqvbWg" base_Property="_28VFEm3LEeyO3MDpaqvbWg" siblings="_28dn9G3LEeyO3MDpaqvbWg" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28VFFG3LEeyO3MDpaqvbWg" base_Element="_28VFEm3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28VsIG3LEeyO3MDpaqvbWg" base_Property="_28VFFW3LEeyO3MDpaqvbWg" siblings="_28ePAm3LEeyO3MDpaqvbWg" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28VsIW3LEeyO3MDpaqvbWg" base_Element="_28VFFW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28YIYW3LEeyO3MDpaqvbWg" base_Property="_28YIYG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28YIYm3LEeyO3MDpaqvbWg" base_Element="_28YIYG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28YvcW3LEeyO3MDpaqvbWg" base_Property="_28YvcG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28Yvcm3LEeyO3MDpaqvbWg" base_Element="_28YvcG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28ZWgW3LEeyO3MDpaqvbWg" base_Property="_28ZWgG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28ZWgm3LEeyO3MDpaqvbWg" base_Element="_28ZWgG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28ZWhG3LEeyO3MDpaqvbWg" base_Property="_28ZWg23LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28ZWhW3LEeyO3MDpaqvbWg" base_Element="_28ZWg23LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28Z9kG3LEeyO3MDpaqvbWg" base_Property="_28ZWhm3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28Z9kW3LEeyO3MDpaqvbWg" base_Element="_28ZWhm3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28Z9k23LEeyO3MDpaqvbWg" base_Property="_28Z9km3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28Z9lG3LEeyO3MDpaqvbWg" base_Element="_28Z9km3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28akoG3LEeyO3MDpaqvbWg" base_Property="_28Z9lW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28akoW3LEeyO3MDpaqvbWg" base_Element="_28Z9lW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28ako23LEeyO3MDpaqvbWg" base_Property="_28akom3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28bLsG3LEeyO3MDpaqvbWg" base_Element="_28akom3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28bLsm3LEeyO3MDpaqvbWg" base_Property="_28bLsW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28bLs23LEeyO3MDpaqvbWg" base_Element="_28bLsW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28bLtW3LEeyO3MDpaqvbWg" base_Property="_28bLtG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28bywG3LEeyO3MDpaqvbWg" base_Element="_28bLtG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28bywm3LEeyO3MDpaqvbWg" base_Property="_28bywW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28byw23LEeyO3MDpaqvbWg" base_Element="_28bywW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28byxW3LEeyO3MDpaqvbWg" base_Property="_28byxG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28byxm3LEeyO3MDpaqvbWg" base_Element="_28byxG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28byyG3LEeyO3MDpaqvbWg" base_Property="_28byx23LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28cZ0G3LEeyO3MDpaqvbWg" base_Element="_28byx23LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28cZ0m3LEeyO3MDpaqvbWg" base_Property="_28cZ0W3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28cZ023LEeyO3MDpaqvbWg" base_Element="_28cZ0W3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28cZ1W3LEeyO3MDpaqvbWg" base_Property="_28cZ1G3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28cZ1m3LEeyO3MDpaqvbWg" base_Element="_28cZ1G3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28cZ2G3LEeyO3MDpaqvbWg" base_Property="_28cZ123LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28cZ2W3LEeyO3MDpaqvbWg" base_Element="_28cZ123LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28dA4G3LEeyO3MDpaqvbWg" base_Property="_28cZ2m3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28dA4W3LEeyO3MDpaqvbWg" base_Element="_28cZ2m3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28dA423LEeyO3MDpaqvbWg" base_Property="_28dA4m3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28dA5G3LEeyO3MDpaqvbWg" base_Element="_28dA4m3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28dA5m3LEeyO3MDpaqvbWg" base_Property="_28dA5W3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28dA523LEeyO3MDpaqvbWg" base_Element="_28dA5W3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28dA6W3LEeyO3MDpaqvbWg" base_Property="_28dA6G3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28dn8G3LEeyO3MDpaqvbWg" base_Element="_28dA6G3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28dn8m3LEeyO3MDpaqvbWg" base_Property="_28dn8W3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28dn823LEeyO3MDpaqvbWg" base_Element="_28dn8W3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28ePAG3LEeyO3MDpaqvbWg" base_Property="_28dn9G3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28ePAW3LEeyO3MDpaqvbWg" base_Element="_28dn9G3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_28ePA23LEeyO3MDpaqvbWg" base_Property="_28ePAm3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_28ePBG3LEeyO3MDpaqvbWg" base_Element="_28ePAm3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28grQG3LEeyO3MDpaqvbWg" base_Element="_28gEMG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28grQ23LEeyO3MDpaqvbWg" base_Element="_28grQW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28hSUG3LEeyO3MDpaqvbWg" base_Element="_28grRG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28hSU23LEeyO3MDpaqvbWg" base_Element="_28hSUW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28h5YG3LEeyO3MDpaqvbWg" base_Element="_28hSVG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28h5Y23LEeyO3MDpaqvbWg" base_Element="_28h5YW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28igcm3LEeyO3MDpaqvbWg" base_Element="_28igcG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28jHgG3LEeyO3MDpaqvbWg" base_Element="_28igc23LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28jHg23LEeyO3MDpaqvbWg" base_Element="_28jHgW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28jukG3LEeyO3MDpaqvbWg" base_Element="_28jHhG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28juk23LEeyO3MDpaqvbWg" base_Element="_28jukW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28kVoG3LEeyO3MDpaqvbWg" base_Element="_28julG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28kVo23LEeyO3MDpaqvbWg" base_Element="_28kVoW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28k8sG3LEeyO3MDpaqvbWg" base_Element="_28kVpG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28k8s23LEeyO3MDpaqvbWg" base_Element="_28k8sW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28k8tm3LEeyO3MDpaqvbWg" base_Element="_28k8tG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28ljwm3LEeyO3MDpaqvbWg" base_Element="_28ljwG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28ljxW3LEeyO3MDpaqvbWg" base_Element="_28ljw23LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28mK0G3LEeyO3MDpaqvbWg" base_Element="_28ljxm3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28mK023LEeyO3MDpaqvbWg" base_Element="_28mK0W3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28mx4G3LEeyO3MDpaqvbWg" base_Element="_28mK1G3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28mx423LEeyO3MDpaqvbWg" base_Element="_28mx4W3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28nY8G3LEeyO3MDpaqvbWg" base_Element="_28mx5G3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28nY823LEeyO3MDpaqvbWg" base_Element="_28nY8W3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28oAAG3LEeyO3MDpaqvbWg" base_Element="_28nY9G3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28onEG3LEeyO3MDpaqvbWg" base_Element="_28oAAW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28onE23LEeyO3MDpaqvbWg" base_Element="_28onEW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28pOIG3LEeyO3MDpaqvbWg" base_Element="_28onFG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28pOI23LEeyO3MDpaqvbWg" base_Element="_28pOIW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28p1MG3LEeyO3MDpaqvbWg" base_Element="_28pOJG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28p1M23LEeyO3MDpaqvbWg" base_Element="_28p1MW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28p1Nm3LEeyO3MDpaqvbWg" base_Element="_28p1NG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28qcQm3LEeyO3MDpaqvbWg" base_Element="_28qcQG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28qcRW3LEeyO3MDpaqvbWg" base_Element="_28qcQ23LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28rDUG3LEeyO3MDpaqvbWg" base_Element="_28qcRm3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28rDU23LEeyO3MDpaqvbWg" base_Element="_28rDUW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28rqYG3LEeyO3MDpaqvbWg" base_Element="_28rDVG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28rqY23LEeyO3MDpaqvbWg" base_Element="_28rqYW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28sRcG3LEeyO3MDpaqvbWg" base_Element="_28rqZG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28sRc23LEeyO3MDpaqvbWg" base_Element="_28sRcW3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28s4gG3LEeyO3MDpaqvbWg" base_Element="_28sRdG3LEeyO3MDpaqvbWg"/>
+  <UMLLabProfile:Reference xmi:id="_28tfkG3LEeyO3MDpaqvbWg" base_Element="_28s4gW3LEeyO3MDpaqvbWg"/>
+</xmi:XMI>

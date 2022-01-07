@@ -1,0 +1,2446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_O5bCQG3KEeyO3MDpaqvbWg">
+  <modelElement href="Customer_Login.uml#_PIupkG3KEeyO3MDpaqvbWg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PPjDQG3KEeyO3MDpaqvbWg" sourceAnchor="265.0,0.0" targetAnchor="0.0,289.0" target="_PPuCaW3KEeyO3MDpaqvbWg" source="_PPuCaW3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLjUEW3KEeyO3MDpaqvbWg"/>
+    <bendpoints xmi:id="_c57IkG3KEeyO3MDpaqvbWg" sourceY="-100" targetX="266" targetY="-389"/>
+    <bendpoints xmi:id="_c57IkW3KEeyO3MDpaqvbWg" sourceX="-383" sourceY="-111" targetX="-117" targetY="-400"/>
+    <bendpoints xmi:id="_c57Ikm3KEeyO3MDpaqvbWg" sourceX="-375" sourceY="289" targetX="-109"/>
+    <stereotypes xmi:id="_PPk4cm3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLj7IG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PPkRYG3KEeyO3MDpaqvbWg" text="">
+      <visualProperties xmi:id="_Pvhj0G3KEeyO3MDpaqvbWg" position="330.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_PPk4cG3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLjUEm3KEeyO3MDpaqvbWg"/>
+      <visualProperties xmi:id="_PvgVtG3KEeyO3MDpaqvbWg" position="-21.0,-50.0"/>
+      <visibility xmi:id="_PPmtoW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPmtoG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PPk4cW3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="thispanel" navigable="true">
+      <modelElement href="Customer_Login.uml#_PK83IW3KEeyO3MDpaqvbWg"/>
+      <visualProperties xmi:id="_Pvhj0W3KEeyO3MDpaqvbWg" position="-68.0,4.0"/>
+      <visibility xmi:id="_PPmto23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPmtom3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PPn7wG3KEeyO3MDpaqvbWg" sourceAnchor="216.0,278.0" targetAnchor="0.0,340.0" target="_PPuCaW3KEeyO3MDpaqvbWg" source="_PQT4QG3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLebkW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PPn7wW3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLfpsG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PPn7wm3KEeyO3MDpaqvbWg" text="">
+      <visualProperties xmi:id="_PvkAEG3KEeyO3MDpaqvbWg" position="-7.333333333333371,1.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_PPn7w23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLebkm3KEeyO3MDpaqvbWg"/>
+      <visualProperties xmi:id="_PvjZAG3KEeyO3MDpaqvbWg" position="13.285714285714334,1.5"/>
+      <visibility xmi:id="_PPn7xG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPn7xW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PPn7xm3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="newuser" navigable="true">
+      <modelElement href="Customer_Login.uml#_PK4lsm3KEeyO3MDpaqvbWg"/>
+      <visualProperties xmi:id="_PvkAEW3KEeyO3MDpaqvbWg" position="-60.0,40.5"/>
+      <stereotypes xmi:id="_PPn7x23KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PK4ls23KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPn7yG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPn7yW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PPoi0G3KEeyO3MDpaqvbWg" source="_PPuCaW3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLhe4W3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PPoi0W3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLiF8G3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PPoi0m3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PPoi023KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLhe4m3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPoi1G3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPoi1W3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PPoi1m3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="textPane" navigable="true">
+      <modelElement href="Customer_Login.uml#_PK7B9G3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPoi123KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPoi2G3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PPoi2W3KEeyO3MDpaqvbWg" source="_PPuCaW3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLiF8W3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PPoi2m3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLitAG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PPoi223KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PPoi3G3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLiF8m3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPoi3W3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPoi3m3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PPoi323KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblFillTheFollowing" navigable="true">
+      <modelElement href="Customer_Login.uml#_PK7pAm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPoi4G3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPoi4W3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PPpJ4G3KEeyO3MDpaqvbWg" source="_PPuCaW3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLitAW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PPpJ4W3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLjUEG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PPpJ4m3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PPpJ423KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLitAm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPpJ5G3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPpJ5W3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PPpJ5m3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="btnPutChoice" navigable="true">
+      <modelElement href="Customer_Login.uml#_PK8QEW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPpJ523KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPpJ6G3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PPpJ6W3KEeyO3MDpaqvbWg" source="_PPuCaW3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLj7IW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PPpJ6m3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLj7I23KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PPpJ623KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PPpJ7G3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLj7Im3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPpJ7W3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPpJ7m3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PPpJ723KEeyO3MDpaqvbWg" aggregationKind="NONE" name="customerinfo" navigable="true">
+      <modelElement href="Customer_Login.uml#_PK9eMG3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPpJ8G3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPpJ8W3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PPpJ8m3KEeyO3MDpaqvbWg" source="_PPuCaW3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLkiMG3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PPpJ823KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLkiMm3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PPpJ9G3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PPpJ9W3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLkiMW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPpJ9m3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPpJ923KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PPpJ-G3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblPassword" navigable="true">
+      <modelElement href="Customer_Login.uml#_PK9eMm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPpJ-W3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPpJ-m3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PPpJ-23KEeyO3MDpaqvbWg" source="_PPuCaW3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLkiM23KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PPpJ_G3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLlJQG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PPpJ_W3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PPpJ_m3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLkiNG3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPpJ_23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPpKAG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PPpKAW3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="formatter" navigable="true">
+      <modelElement href="Customer_Login.uml#_PK-FQW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPpKAm3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPpKA23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PPpw8G3KEeyO3MDpaqvbWg" source="_PPuCaW3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLtsIW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PPpw8W3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLtsI23KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PPpw8m3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PPpw823KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLtsIm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPpw9G3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPpw9W3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PPpw9m3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="textPane2" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLNV1G3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPpw923KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPpw-G3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PPpw-W3KEeyO3MDpaqvbWg" source="_PPuCaW3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLtsJG3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PPpw-m3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLuTMG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PPpw-23KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PPpw_G3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLtsJW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPpw_W3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPpw_m3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PPpw_23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="textPane3" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLNV123KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPpxAG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPpxAW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PPpxAm3KEeyO3MDpaqvbWg" source="_PPuCaW3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLuTMW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PPpxA23KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLuTM23KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PPpxBG3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PPpxBW3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLuTMm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPpxBm3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPpxB23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PPpxCG3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="textPane_1" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLN84m3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPpxCW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPpxCm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PPqYAG3KEeyO3MDpaqvbWg" source="_PPuCaW3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLuTNG3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PPqYAW3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLu6QG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PPqYAm3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PPqYA23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLuTNW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPqYBG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPqYBW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PPqYBm3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="textPane_3" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLN85W3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPqYB23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPqYCG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PPqYCW3KEeyO3MDpaqvbWg" source="_PPuCaW3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLu6QW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PPqYCm3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLu6Q23KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PPqYC23KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PPqYDG3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLu6Qm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPqYDW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPqYDm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PPqYD23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="textPane_4" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLN86G3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPqYEG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPqYEW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PPqYEm3KEeyO3MDpaqvbWg" source="_PPuCaW3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLu6RG3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PPqYE23KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLvhUG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PPqYFG3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PPqYFW3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLu6RW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPqYFm3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPqYF23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PPqYGG3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblCollegeName" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLOj8m3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPqYGW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPqYGm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PPq_EG3KEeyO3MDpaqvbWg" source="_PPuCaW3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLvhUW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PPq_EW3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLvhU23KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PPq_Em3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PPq_E23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLvhUm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPq_FG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPq_FW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PPq_Fm3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblCollegeName2" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLOj9W3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPq_F23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPq_GG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PPq_GW3KEeyO3MDpaqvbWg" source="_PPuCaW3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLvhVG3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PPq_Gm3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLwIYG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PPq_G23KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PPq_HG3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLvhVW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPq_HW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPq_Hm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PPq_H23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblCollegeName3" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLOj-G3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPq_IG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPq_IW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PPrmIG3KEeyO3MDpaqvbWg" source="_PPuCaW3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLwIYW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PPrmIW3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLwvcG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PPrmIm3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PPrmI23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLwIYm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPrmJG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPrmJW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PPrmJm3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblPleaseEnterThe" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLPLAm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPrmJ23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPrmKG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PPrmKW3KEeyO3MDpaqvbWg" source="_PPuCaW3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLwvcW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PPrmKm3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLxWgG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PPrmK23KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PPrmLG3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLwvcm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPrmLW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPrmLm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PPrmL23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblPleaseEnterThe2" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLPLBW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPrmMG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPrmMW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PPrmMm3KEeyO3MDpaqvbWg" source="_PPuCaW3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLxWgW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PPrmM23KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLx9kG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PPrmNG3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PPrmNW3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLxWgm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPrmNm3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPrmN23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PPrmOG3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblPleaseEnterThe3" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLPLCG3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPrmOW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPrmOm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PPsNMG3KEeyO3MDpaqvbWg" source="_PPuCaW3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLx9kW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PPsNMW3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLx9k23KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PPsNMm3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PPsNM23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLx9km3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPsNNG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPsNNW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PPsNNm3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblPleaseEnterThe4" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLPyEm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPsNN23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPsNOG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PPsNOW3KEeyO3MDpaqvbWg" source="_PPuCaW3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLx9lG3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PPsNOm3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLykoG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PPsNO23KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PPsNPG3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLx9lW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPsNPW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPsNPm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PPsNP23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblPleaseEnterThe6" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLQZIW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPsNQG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPsNQW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PPsNQm3KEeyO3MDpaqvbWg" source="_PPuCaW3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLykoW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PPsNQ23KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLyko23KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PPsNRG3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PPsNRW3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLykom3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPsNRm3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPsNR23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PPsNSG3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblPleaseEnterThe7" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLQZJG3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPsNSW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPsNSm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PPs0QG3KEeyO3MDpaqvbWg" source="_PPuCaW3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLzLsG3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PPs0QW3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLzLsm3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PPs0Qm3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PPs0Q23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLzLsW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPs0RG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPs0RW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PPs0Rm3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblMobileNumber" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLRAMm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPs0R23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPs0SG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PPs0SW3KEeyO3MDpaqvbWg" source="_PPuCaW3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLzLs23KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PPs0Sm3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLzywG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PPs0S23KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PPs0TG3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLzLtG3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPs0TW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPs0Tm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PPs0T23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblNickName" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLRANW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPs0UG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPs0UW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PPtbUG3KEeyO3MDpaqvbWg" source="_PPuCaW3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLzywW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PPtbUW3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLzyw23KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PPtbUm3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PPtbU23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLzywm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPtbVG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPtbVW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PPtbVm3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblPleaseFillValid" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLRnQm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPtbV23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPtbWG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PPtbWW3KEeyO3MDpaqvbWg" source="_PPuCaW3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLzyxG3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PPtbWm3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PL0Z0G3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PPtbW23KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PPtbXG3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLzyxW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPtbXW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPtbXm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PPtbX23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblNewLabel" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLRnRW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPtbYG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPtbYW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PPuCYG3KEeyO3MDpaqvbWg" source="_PPuCaW3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PL0Z0W3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PPuCYW3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PL0Z023KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PPuCYm3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PPuCY23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PL0Z0m3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPuCZG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuCZW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PPuCZm3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="button" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLSOUm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPuCZ23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuCaG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PP_IIG3KEeyO3MDpaqvbWg" sourceAnchor="100.0,0.0" targetAnchor="0.0,254.0" target="_PQT4QG3KEeyO3MDpaqvbWg" source="_PQT4QG3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLY8A23KEeyO3MDpaqvbWg"/>
+    <bendpoints xmi:id="_c57voG3KEeyO3MDpaqvbWg" sourceY="-99" targetX="100" targetY="-354"/>
+    <bendpoints xmi:id="_c57voW3KEeyO3MDpaqvbWg" sourceX="-217" sourceY="-109" targetX="-117" targetY="-364"/>
+    <bendpoints xmi:id="_c57vom3KEeyO3MDpaqvbWg" sourceX="-213" sourceY="255" targetX="-113"/>
+    <stereotypes xmi:id="_PQBkY23KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLZjEG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQBkYG3KEeyO3MDpaqvbWg" text="">
+      <visualProperties xmi:id="_Pvix8G3KEeyO3MDpaqvbWg" position="161.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_PQBkYW3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLY8BG3KEeyO3MDpaqvbWg"/>
+      <visualProperties xmi:id="_PviK4G3KEeyO3MDpaqvbWg" position="-21.0,-50.0"/>
+      <visibility xmi:id="_PQHrAW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQHrAG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQBkYm3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="thisframe" navigable="true">
+      <modelElement href="Customer_Login.uml#_PKzGIm3KEeyO3MDpaqvbWg"/>
+      <visualProperties xmi:id="_Pvix8W3KEeyO3MDpaqvbWg" position="-70.00000000000006,2.999999999999943"/>
+      <visibility xmi:id="_PQHrA23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQHrAm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PP_vMG3KEeyO3MDpaqvbWg" source="_PQT4QG3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLZjFG3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQEnsG3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLaKIG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQEAoG3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQEAoW3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLZjFW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQISEW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQISEG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQEAom3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="customer" navigable="true">
+      <modelElement href="Customer_Login.uml#_PK0UQG3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQISE23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQISEm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PP_vMW3KEeyO3MDpaqvbWg" source="_PQT4QG3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLaxMW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQEntG3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLaxM23KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQEnsW3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQEnsm3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLaxMm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQISFm3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQISFW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQEns23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="input" navigable="true">
+      <modelElement href="Customer_Login.uml#_PK1iYG3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQISGG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQISF23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PP_vMm3KEeyO3MDpaqvbWg" source="_PQT4QG3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLaxNG3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQEnuG3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLbYQG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQEntW3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQEntm3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLaxNW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQISG23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQISGm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQEnt23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="output" navigable="true">
+      <modelElement href="Customer_Login.uml#_PK2JcG3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQI5IW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQI5IG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PP_vM23KEeyO3MDpaqvbWg" source="_PQT4QG3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLbYQW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQFOw23KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLbYQ23KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQFOwG3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQFOwW3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLbYQm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQI5JG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQI5I23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQFOwm3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="label3" navigable="true">
+      <modelElement href="Customer_Login.uml#_PK2Jcm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQI5Jm3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQI5JW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQAWQG3KEeyO3MDpaqvbWg" source="_PQT4QG3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLdNcW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQF10W3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLd0gG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQFOxG3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQFOxW3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLdNcm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQI5KW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQI5KG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQF10G3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="label2" navigable="true">
+      <modelElement href="Customer_Login.uml#_PK3-oW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQI5K23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQI5Km3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQAWQW3KEeyO3MDpaqvbWg" source="_PQT4QG3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLfpsW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQF11W3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLgQwG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQF10m3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQF1023KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLfpsm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQI5L23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQI5Lm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQF11G3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="textPane" navigable="true">
+      <modelElement href="Customer_Login.uml#_PK4ltG3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQJgMG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQI5MG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQAWQm3KEeyO3MDpaqvbWg" source="_PQT4QG3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLg30W3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQGc4W3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLhe4G3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQF11m3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQF1123KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLg30m3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQJgM23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQJgMm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQGc4G3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="btnNewButton_1" navigable="true">
+      <modelElement href="Customer_Login.uml#_PK5Mw23KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQJgNW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQJgNG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQAWQ23KEeyO3MDpaqvbWg" source="_PQT4QG3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLrP4W3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQGc5W3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLrP423KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQGc4m3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQGc423KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLrP4m3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQJgOW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQJgOG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQGc5G3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblNewLabel" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLK5km3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQJgO23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQJgOm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQAWRG3KEeyO3MDpaqvbWg" source="_PQT4QG3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLrP5G3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQGc6W3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLr28G3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQGc5m3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQGc523KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLrP5W3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQJgP23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQJgPm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQGc6G3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblNewLabel_1" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLK5lW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQJgQW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQJgQG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQAWRW3KEeyO3MDpaqvbWg" source="_PQT4QG3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLr28W3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQGc7W3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLr2823KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQGc6m3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQGc623KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLr28m3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQKHQ23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQKHQm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQGc7G3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="label" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLLgom3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQKHRW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQKHRG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQAWRm3KEeyO3MDpaqvbWg" source="_PQT4QG3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLr29G3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQHD8m3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLr29m3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQGc7m3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQHD8G3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLr29W3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQKHSW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQKHSG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQHD8W3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblPleaseFillAll" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLLgpW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQKHS23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQKHSm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQAWR23KEeyO3MDpaqvbWg" source="_PQT4QG3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLseAG3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQHD9m3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLseAm3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQHD823KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQHD9G3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLseAW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQKHT23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQKHTm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQHD9W3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblPleaseFillValid" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLMHsG3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQKHUW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQKHUG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQAWSG3KEeyO3MDpaqvbWg" source="_PQT4QG3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLseA23KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQHD-m3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLseBW3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQHD923KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQHD-G3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLseBG3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQKuUW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQKuUG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQHD-W3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblAdminPortal" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLMHs23KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQKuU23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQKuUm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQAWSW3KEeyO3MDpaqvbWg" source="_PQT4QG3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLseBm3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQHD_m3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLtFEG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQHD-23KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQHD_G3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLseB23KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQKuV23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQKuVm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQHD_W3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="btnNewUser" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLMHtm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQKuWW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQKuWG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQAWSm3KEeyO3MDpaqvbWg" source="_PQT4QG3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLtFEW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQHEAm3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLtsIG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQHD_23KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQHEAG3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLtFEm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQKuXW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQKuXG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQHEAW3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="btnNewButton" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLMuwm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQKuX23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQKuXm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQPm0G3KEeyO3MDpaqvbWg" source="_PQT4QG3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLY8AG3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQPm0W3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLY8Am3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQPm0m3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQPm023KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLY8AW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQPm1G3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQPm1W3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQPm1m3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="contentPane" navigable="true">
+      <modelElement href="Customer_Login.uml#_PKyfEG3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQPm123KEeyO3MDpaqvbWg" label="-"/>
+      <cardinality xmi:id="_PQPm2G3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQQN4G3KEeyO3MDpaqvbWg" source="_PQT4QG3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLZjEW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQQN4W3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLZjE23KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQQN4m3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQQN423KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLZjEm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQQN5G3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQQN5W3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQQN5m3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="c" navigable="true">
+      <modelElement href="Customer_Login.uml#_PKztMW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQQN523KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQQN6G3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQQN6W3KEeyO3MDpaqvbWg" source="_PQT4QG3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLaKIW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQQ08G3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLaxMG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQQ08W3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQQ08m3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLaKIm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQQ0823KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQQ09G3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQQ09W3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="c2" navigable="true">
+      <modelElement href="Customer_Login.uml#_PK07UG3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQQ09m3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQQ0923KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQQ0-G3KEeyO3MDpaqvbWg" source="_PQT4QG3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLbYRG3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQQ0-W3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLb_UG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQQ0-m3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQQ0-23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLbYRW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQQ0_G3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQQ0_W3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQQ0_m3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="panel" navigable="true">
+      <modelElement href="Customer_Login.uml#_PK2wgW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQQ0_23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQQ1AG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQRcAG3KEeyO3MDpaqvbWg" source="_PQT4QG3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLb_UW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQRcAW3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLcmYG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQRcAm3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQRcA23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLb_Um3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQRcBG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQRcBW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQRcBm3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="screenSize" navigable="true">
+      <modelElement href="Customer_Login.uml#_PK3XkG3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQRcB23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQRcCG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQSDEG3KEeyO3MDpaqvbWg" source="_PQT4QG3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLcmYW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQSDEW3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLdNcG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQSDEm3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQSDE23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLcmYm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQSDFG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQSDFW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQSDFm3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="icon" navigable="true">
+      <modelElement href="Customer_Login.uml#_PK3Xkm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQSDF23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQSDGG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQSDGW3KEeyO3MDpaqvbWg" sourceAnchor="0.0,284.0" targetAnchor="584.0,280.0" target="_PQ348G3KEeyO3MDpaqvbWg" source="_PQT4QG3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLd0gW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQSDGm3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLebkG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQSDG23KEeyO3MDpaqvbWg" text="">
+      <visualProperties xmi:id="_PvknIG3KEeyO3MDpaqvbWg" position="-49.0,21.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_PQSDHG3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLd0gm3KEeyO3MDpaqvbWg"/>
+      <visualProperties xmi:id="_PvkAEm3KEeyO3MDpaqvbWg" position="-16.000000000000057,-86.0"/>
+      <visibility xmi:id="_PQSDHW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQSDHm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQSDH23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="forgotpass" navigable="true">
+      <modelElement href="Customer_Login.uml#_PK4lsG3KEeyO3MDpaqvbWg"/>
+      <visualProperties xmi:id="_PvlOMG3KEeyO3MDpaqvbWg" position="1.0,-86.0"/>
+      <visibility xmi:id="_PQSDIG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQSDIW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQSqIG3KEeyO3MDpaqvbWg" source="_PQT4QG3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLgQwW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQSqIW3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLg30G3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQSqIm3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQSqI23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLgQwm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQSqJG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQSqJW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQSqJm3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="password" navigable="true">
+      <modelElement href="Customer_Login.uml#_PK5MwW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQSqJ23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQSqKG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQTRMG3KEeyO3MDpaqvbWg" source="_PQT4QG3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLqo1G3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQTRMW3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLrP4G3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQTRMm3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQTRM23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLqo1W3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQTRNG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQTRNW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQTRNm3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="icon2" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLKShG3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQTRN23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQTROG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQmMIG3KEeyO3MDpaqvbWg" source="_PQ348G3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLWfwG3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQrEoW3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLXG0G3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQqdkG3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQqdkW3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLWfwW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQuvAW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQuvAG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQrEoG3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="customer" navigable="true">
+      <modelElement href="Customer_Login.uml#_PKwC0W3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQuvA23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQuvAm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQmMIW3KEeyO3MDpaqvbWg" source="_PQ348G3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLXG0W3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQrEpW3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLXt4G3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQrEom3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQrEo23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLXG0m3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQuvBm3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQuvBW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQrEpG3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblNewLabel_1" navigable="true">
+      <modelElement href="Customer_Login.uml#_PKwC023KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQvWEW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQvWEG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQmMIm3KEeyO3MDpaqvbWg" source="_PQ348G3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLXt4W3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQrEqW3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLXt423KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQrEpm3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQrEp23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLXt4m3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQvWFW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQvWFG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQrEqG3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="textPane" navigable="true">
+      <modelElement href="Customer_Login.uml#_PKwp4W3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQvWF23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQvWFm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQmzMG3KEeyO3MDpaqvbWg" source="_PQ348G3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLXt5G3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQrrsW3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLYU8G3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQrEqm3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQrEq23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLXt5W3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQvWG23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQvWGm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQrrsG3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="textPane_1" navigable="true">
+      <modelElement href="Customer_Login.uml#_PKxQ8G3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQvWHW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQvWHG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQmzMW3KEeyO3MDpaqvbWg" source="_PQ348G3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLYU8W3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQrrtW3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLYU823KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQrrsm3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQrrs23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLYU8m3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQvWIW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQvWIG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQrrtG3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="btnNewButton" navigable="true">
+      <modelElement href="Customer_Login.uml#_PKxQ823KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQvWI23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQvWIm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQmzMm3KEeyO3MDpaqvbWg" source="_PQ348G3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLlJQW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQrruW3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLlwUG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQrrtm3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQrrt23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLlJQm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQv9IW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQv9IG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQrruG3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblNewPassword" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLFaAm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQv9I23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQv9Im3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQmzM23KEeyO3MDpaqvbWg" source="_PQ348G3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLlwUW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQrrvW3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLmXYG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQrrum3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQrru23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLlwUm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQv9J23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQv9Jm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQrrvG3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblConfirmPassword" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLGBEW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQv9KW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQv9KG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQmzNG3KEeyO3MDpaqvbWg" source="_PQ348G3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLmXYW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQsSwG3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLm-cG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQrrvm3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQrrv23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLmXYm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQv9LW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQv9LG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQrrwG3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblPleaseEnterThe" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLGBFG3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQv9L23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQv9Lm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQmzNW3KEeyO3MDpaqvbWg" source="_PQ348G3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLm-cW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQsSxG3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLnlgG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQsSwW3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQsSwm3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLm-cm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQv9M23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQv9Mm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQsSw23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblPleaseEnterThe2" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLGoIW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQv9NW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQv9NG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQmzNm3KEeyO3MDpaqvbWg" source="_PQ348G3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLnlgW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQsSyG3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLoMkG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQsSxW3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQsSxm3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLnlgm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQwkM23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQwkMm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQsSx23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblPleaseEnterThe3" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLGoJG3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQwkNW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQwkNG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQmzN23KEeyO3MDpaqvbWg" source="_PQ348G3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLoMkW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQsSzG3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLozoG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQsSyW3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQsSym3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLoMkm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQwkOW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQwkOG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQsSy23KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblUsername" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLHPMW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQwkO23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQwkOm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQmzOG3KEeyO3MDpaqvbWg" source="_PQ348G3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLozoW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQs50m3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLozo23KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQsSzW3KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQs50G3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLozom3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQwkP23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQwkPm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQs50W3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblPleaseEnterThe4" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLHPNG3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQwkQW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQwkQG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQmzOW3KEeyO3MDpaqvbWg" source="_PQ348G3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLozpG3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQs51m3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLpasG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQs5023KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQs51G3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLozpW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQxLQW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQxLQG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQs51W3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblPleaseEnterThe5" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLH2Qm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQxLQ23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQxLQm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQmzOm3KEeyO3MDpaqvbWg" source="_PQ348G3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLpasW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQs52m3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLpas23KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQs5123KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQs52G3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLpasm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQxLR23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQxLRm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQs52W3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblPleaseFillValid" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLIdUG3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQxLSW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQxLSG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQmzO23KEeyO3MDpaqvbWg" source="_PQ348G3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLpatG3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQtg4m3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLqBwG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQs5223KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQtg4G3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLpatW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQxLTW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQxLTG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQtg4W3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="lblResetPassword" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLIdU23KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQxLT23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQxLTm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQmzPG3KEeyO3MDpaqvbWg" source="_PQ348G3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLqBwW3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQtg5m3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLqBw23KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQtg423KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQtg5G3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLqBwm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQxLU23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQxLUm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQtg5W3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="textPane_3" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLJEYG3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQxLVW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQxLVG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQmzPW3KEeyO3MDpaqvbWg" source="_PQ348G3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLqBxG3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQtg6m3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLqo0G3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQtg523KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQtg6G3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLqBxW3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQxyUm3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQxyUW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQtg6W3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="textPane_2" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLJEY23KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQxyVG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQxyU23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PQmzPm3KEeyO3MDpaqvbWg" source="_PQ348G3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PLqo0W3KEeyO3MDpaqvbWg"/>
+    <stereotypes xmi:id="_PQuH8G3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PLqo023KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PQtg623KEeyO3MDpaqvbWg" text=""/>
+    <sourceRole xmi:id="_PQtg7G3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="">
+      <modelElement href="Customer_Login.uml#_PLqo0m3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQxyWG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQxyV23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PQtg7W3KEeyO3MDpaqvbWg" aggregationKind="NONE" name="button" navigable="true">
+      <modelElement href="Customer_Login.uml#_PLJrcm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQxyWm3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQxyWW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_PQoBUG3KEeyO3MDpaqvbWg" subClass="_PQ348G3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PKm4523KEeyO3MDpaqvbWg"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_PQxyXW3KEeyO3MDpaqvbWg" subClass="_PPuCaW3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PKs_h23KEeyO3MDpaqvbWg"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PQk-AG3KEeyO3MDpaqvbWg" name="IOException">
+    <modelElement href="Customer_Login.uml#_PKMpMW3KEeyO3MDpaqvbWg"/>
+    <visualProperties xmi:id="_PQk-AW3KEeyO3MDpaqvbWg" position="543.0,-225.0" size="-1.0,-1.0" visible="false"/>
+    <stereotypes xmi:id="_PQk-Am3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PKNQQG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <visibility xmi:id="_PQk-A23KEeyO3MDpaqvbWg" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PQihwG3KEeyO3MDpaqvbWg" name="UnknownHostException">
+    <modelElement href="Customer_Login.uml#_PKY2c23KEeyO3MDpaqvbWg"/>
+    <visualProperties xmi:id="_PQihwW3KEeyO3MDpaqvbWg" position="664.0,-97.0" size="-1.0,-1.0" visible="false"/>
+    <stereotypes xmi:id="_PQihwm3KEeyO3MDpaqvbWg" name="Reference">
+      <modelElement href="Customer_Login.uml#_PKZdgG3KEeyO3MDpaqvbWg"/>
+    </stereotypes>
+    <visibility xmi:id="_PQihw23KEeyO3MDpaqvbWg" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PQ348G3KEeyO3MDpaqvbWg" name="ForgotPass" associationsIn="_PQSDGW3KEeyO3MDpaqvbWg" associationsOut="_PQmMIG3KEeyO3MDpaqvbWg _PQmMIW3KEeyO3MDpaqvbWg _PQmMIm3KEeyO3MDpaqvbWg _PQmzMG3KEeyO3MDpaqvbWg _PQmzMW3KEeyO3MDpaqvbWg _PQmzMm3KEeyO3MDpaqvbWg _PQmzM23KEeyO3MDpaqvbWg _PQmzNG3KEeyO3MDpaqvbWg _PQmzNW3KEeyO3MDpaqvbWg _PQmzNm3KEeyO3MDpaqvbWg _PQmzN23KEeyO3MDpaqvbWg _PQmzOG3KEeyO3MDpaqvbWg _PQmzOW3KEeyO3MDpaqvbWg _PQmzOm3KEeyO3MDpaqvbWg _PQmzO23KEeyO3MDpaqvbWg _PQmzPG3KEeyO3MDpaqvbWg _PQmzPW3KEeyO3MDpaqvbWg _PQmzPm3KEeyO3MDpaqvbWg" generalizations="_PQoBUG3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PI5BoG3KEeyO3MDpaqvbWg"/>
+    <visualProperties xmi:id="_PQ348W3KEeyO3MDpaqvbWg" position="-179.0,-614.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_PQ348m3KEeyO3MDpaqvbWg" label="+"/>
+    <attributes xmi:id="_PQ34823KEeyO3MDpaqvbWg" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Customer_Login.uml#_PKu0sG3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQ349G3KEeyO3MDpaqvbWg" label="-"/>
+      <cardinality xmi:id="_PQ349W3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQ349m3KEeyO3MDpaqvbWg" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQ34923KEeyO3MDpaqvbWg" name="n">
+      <modelElement href="Customer_Login.uml#_PKvbwG3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQ34-G3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PKvbwW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQ34-W3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQ34-m3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQ34-23KEeyO3MDpaqvbWg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQ34_G3KEeyO3MDpaqvbWg" name="name">
+      <modelElement href="Customer_Login.uml#_PKvbwm3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQ34_W3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PKvbw23KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQ34_m3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PKwC0G3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQ34_23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQ35AG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQ35AW3KEeyO3MDpaqvbWg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQ35Am3KEeyO3MDpaqvbWg" name="customer">
+      <modelElement href="Customer_Login.uml#_PKwC0W3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQ35A23KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PKwC0m3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQ35BG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQ35BW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQ35Bm3KEeyO3MDpaqvbWg" name="CustomerInfo">
+        <modelElement href="Customer_Login.uml#_PKlqwG3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQ35B23KEeyO3MDpaqvbWg" name="lblNewLabel_1">
+      <modelElement href="Customer_Login.uml#_PKwC023KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQ35CG3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PKwC1G3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQ35CW3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PKwp4G3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQ35Cm3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQ35C23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQ35DG3KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQ35DW3KEeyO3MDpaqvbWg" name="textPane">
+      <modelElement href="Customer_Login.uml#_PKwp4W3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQ35Dm3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PKwp4m3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQ35D23KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PKwp423KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQ35EG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQ35EW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQ35Em3KEeyO3MDpaqvbWg" name="JTextPane">
+        <modelElement href="Customer_Login.uml#_PKSIwW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQ35E23KEeyO3MDpaqvbWg" name="textPane_1">
+      <modelElement href="Customer_Login.uml#_PKxQ8G3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQ35FG3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PKxQ8W3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQ35FW3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PKxQ8m3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQ35Fm3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQ35F23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQ35GG3KEeyO3MDpaqvbWg" name="JPasswordField">
+        <modelElement href="Customer_Login.uml#_PKRhs23KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQ35GW3KEeyO3MDpaqvbWg" name="btnNewButton">
+      <modelElement href="Customer_Login.uml#_PKxQ823KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQ35Gm3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PKxQ9G3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQ35G23KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PKxQ9W3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQ35HG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQ35HW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQ35Hm3KEeyO3MDpaqvbWg" name="JButton">
+        <modelElement href="Customer_Login.uml#_PKPsgW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQ35H23KEeyO3MDpaqvbWg" name="pass1">
+      <modelElement href="Customer_Login.uml#_PLEL4G3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQ35IG3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLEy8G3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQ35IW3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLEy8W3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQ35Im3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQ35I23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQ35JG3KEeyO3MDpaqvbWg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQ35JW3KEeyO3MDpaqvbWg" name="pass2">
+      <modelElement href="Customer_Login.uml#_PLEy8m3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQ35Jm3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLEy823KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQ35J23KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLEy9G3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQ35KG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQ35KW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQ35Km3KEeyO3MDpaqvbWg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQ35K23KEeyO3MDpaqvbWg" name="nickname">
+      <modelElement href="Customer_Login.uml#_PLEy9W3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQ35LG3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLFaAG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQ35LW3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLFaAW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQ35Lm3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQ35L23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQ35MG3KEeyO3MDpaqvbWg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQ35MW3KEeyO3MDpaqvbWg" name="lblNewPassword">
+      <modelElement href="Customer_Login.uml#_PLFaAm3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQ35Mm3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLFaA23KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQ35M23KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLGBEG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQ35NG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQ35NW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQ35Nm3KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQ35N23KEeyO3MDpaqvbWg" name="lblConfirmPassword">
+      <modelElement href="Customer_Login.uml#_PLGBEW3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQ35OG3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLGBEm3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQ35OW3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLGBE23KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQ35Om3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQ35O23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQ35PG3KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQ35PW3KEeyO3MDpaqvbWg" name="lblPleaseEnterThe">
+      <modelElement href="Customer_Login.uml#_PLGBFG3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQ35Pm3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLGBFW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQ35P23KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLGoIG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQ35QG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQ35QW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQ35Qm3KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQ35Q23KEeyO3MDpaqvbWg" name="lblPleaseEnterThe2">
+      <modelElement href="Customer_Login.uml#_PLGoIW3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQ35RG3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLGoIm3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQ35RW3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLGoI23KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQ35Rm3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQ35R23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQ35SG3KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQ35SW3KEeyO3MDpaqvbWg" name="lblPleaseEnterThe3">
+      <modelElement href="Customer_Login.uml#_PLGoJG3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQ35Sm3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLGoJW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQ35S23KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLHPMG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQ35TG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQ35TW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQ35Tm3KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQ35T23KEeyO3MDpaqvbWg" name="lblUsername">
+      <modelElement href="Customer_Login.uml#_PLHPMW3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQ35UG3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLHPMm3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQ35UW3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLHPM23KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQ35Um3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQ35U23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQ35VG3KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQ35VW3KEeyO3MDpaqvbWg" name="lblPleaseEnterThe4">
+      <modelElement href="Customer_Login.uml#_PLHPNG3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQ35Vm3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLH2QG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQ35V23KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLH2QW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQ35WG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQ35WW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQ35Wm3KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQ35W23KEeyO3MDpaqvbWg" name="lblPleaseEnterThe5">
+      <modelElement href="Customer_Login.uml#_PLH2Qm3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQ35XG3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLH2Q23KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQ35XW3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLH2RG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQ35Xm3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQ35X23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQ35YG3KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQ35YW3KEeyO3MDpaqvbWg" name="lblPleaseFillValid">
+      <modelElement href="Customer_Login.uml#_PLIdUG3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQ35Ym3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLIdUW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQ35Y23KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLIdUm3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQ35ZG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQ35ZW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQ35Zm3KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQ35Z23KEeyO3MDpaqvbWg" name="lblResetPassword">
+      <modelElement href="Customer_Login.uml#_PLIdU23KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQ35aG3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLIdVG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQ35aW3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLIdVW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQ35am3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQ35a23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQ35bG3KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQ35bW3KEeyO3MDpaqvbWg" name="textPane_3">
+      <modelElement href="Customer_Login.uml#_PLJEYG3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQ35bm3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLJEYW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQ35b23KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLJEYm3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQ35cG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQ35cW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQ35cm3KEeyO3MDpaqvbWg" name="JTextPane">
+        <modelElement href="Customer_Login.uml#_PKSIwW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQ35c23KEeyO3MDpaqvbWg" name="textPane_2">
+      <modelElement href="Customer_Login.uml#_PLJEY23KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQ35dG3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLJrcG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQ35dW3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLJrcW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQ35dm3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQ35d23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQ35eG3KEeyO3MDpaqvbWg" name="JPasswordField">
+        <modelElement href="Customer_Login.uml#_PKRhs23KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQ35eW3KEeyO3MDpaqvbWg" name="button">
+      <modelElement href="Customer_Login.uml#_PLJrcm3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQ35em3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLJrc23KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQ35e23KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLKSgG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQ35fG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQ35fW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQ35fm3KEeyO3MDpaqvbWg" name="JButton">
+        <modelElement href="Customer_Login.uml#_PKPsgW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_PQ35f23KEeyO3MDpaqvbWg" name="ForgotPass">
+      <modelElement href="Customer_Login.uml#_PKm44G3KEeyO3MDpaqvbWg"/>
+      <keywords xmi:id="_PQ35gG3KEeyO3MDpaqvbWg" keyword="create"/>
+      <visibility xmi:id="_PQ35gW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQ35gm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PQ35g23KEeyO3MDpaqvbWg">
+        <modelElement href="Customer_Login.uml#_PKm45m3KEeyO3MDpaqvbWg"/>
+        <type xmi:id="_PQ35hG3KEeyO3MDpaqvbWg" name="ForgotPass">
+          <modelElement href="Customer_Login.uml#_PI5BoG3KEeyO3MDpaqvbWg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PQ35hW3KEeyO3MDpaqvbWg" name="parent">
+        <modelElement href="Customer_Login.uml#_PKm44W3KEeyO3MDpaqvbWg"/>
+        <cardinality xmi:id="_PQ35hm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+        <type xmi:id="_PQ35h23KEeyO3MDpaqvbWg" name="Login">
+          <modelElement href="Customer_Login.uml#_PI8sAG3KEeyO3MDpaqvbWg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PQ35iG3KEeyO3MDpaqvbWg" name="input">
+        <modelElement href="Customer_Login.uml#_PKm44m3KEeyO3MDpaqvbWg"/>
+        <cardinality xmi:id="_PQ35iW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+        <type xmi:id="_PQ35im3KEeyO3MDpaqvbWg" name="ObjectInputStream">
+          <modelElement href="Customer_Login.uml#_PKNQQW3KEeyO3MDpaqvbWg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PQ35i23KEeyO3MDpaqvbWg" name="output">
+        <modelElement href="Customer_Login.uml#_PKm4423KEeyO3MDpaqvbWg"/>
+        <cardinality xmi:id="_PQ35jG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+        <type xmi:id="_PQ35jW3KEeyO3MDpaqvbWg" name="ObjectOutputStream">
+          <modelElement href="Customer_Login.uml#_PKN3UG3KEeyO3MDpaqvbWg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PPuCaW3KEeyO3MDpaqvbWg" name="NewUser" associationsIn="_PPjDQG3KEeyO3MDpaqvbWg _PPn7wG3KEeyO3MDpaqvbWg" associationsOut="_PPjDQG3KEeyO3MDpaqvbWg _PPoi0G3KEeyO3MDpaqvbWg _PPoi2W3KEeyO3MDpaqvbWg _PPpJ4G3KEeyO3MDpaqvbWg _PPpJ6W3KEeyO3MDpaqvbWg _PPpJ8m3KEeyO3MDpaqvbWg _PPpJ-23KEeyO3MDpaqvbWg _PPpw8G3KEeyO3MDpaqvbWg _PPpw-W3KEeyO3MDpaqvbWg _PPpxAm3KEeyO3MDpaqvbWg _PPqYAG3KEeyO3MDpaqvbWg _PPqYCW3KEeyO3MDpaqvbWg _PPqYEm3KEeyO3MDpaqvbWg _PPq_EG3KEeyO3MDpaqvbWg _PPq_GW3KEeyO3MDpaqvbWg _PPrmIG3KEeyO3MDpaqvbWg _PPrmKW3KEeyO3MDpaqvbWg _PPrmMm3KEeyO3MDpaqvbWg _PPsNMG3KEeyO3MDpaqvbWg _PPsNOW3KEeyO3MDpaqvbWg _PPsNQm3KEeyO3MDpaqvbWg _PPs0QG3KEeyO3MDpaqvbWg _PPs0SW3KEeyO3MDpaqvbWg _PPtbUG3KEeyO3MDpaqvbWg _PPtbWW3KEeyO3MDpaqvbWg _PPuCYG3KEeyO3MDpaqvbWg" generalizations="_PQxyXW3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PJA9cG3KEeyO3MDpaqvbWg"/>
+    <visualProperties xmi:id="_PPuCam3KEeyO3MDpaqvbWg" position="835.0,-680.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_PPuCa23KEeyO3MDpaqvbWg" label="+"/>
+    <attributes xmi:id="_PPuCbG3KEeyO3MDpaqvbWg" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Customer_Login.uml#_PK6a4G3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PPuCbW3KEeyO3MDpaqvbWg" label="-"/>
+      <cardinality xmi:id="_PPuCbm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuCb23KEeyO3MDpaqvbWg" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuCcG3KEeyO3MDpaqvbWg" name="n">
+      <modelElement href="Customer_Login.uml#_PK6a4m3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuCcW3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PK6a423KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PPuCcm3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PK6a5G3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuCc23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuCdG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuCdW3KEeyO3MDpaqvbWg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuCdm3KEeyO3MDpaqvbWg" name="c">
+      <modelElement href="Customer_Login.uml#_PK7B8G3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuCd23KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PK7B8W3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuCeG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuCeW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuCem3KEeyO3MDpaqvbWg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuCe23KEeyO3MDpaqvbWg" name="t">
+      <modelElement href="Customer_Login.uml#_PK7B8m3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuCfG3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PK7B823KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuCfW3KEeyO3MDpaqvbWg" label="~"/>
+      <cardinality xmi:id="_PPuCfm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuCf23KEeyO3MDpaqvbWg" name="char">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuCgG3KEeyO3MDpaqvbWg" name="textPane">
+      <modelElement href="Customer_Login.uml#_PK7B9G3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuCgW3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PK7pAG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PPuCgm3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PK7pAW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuCg23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuChG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuChW3KEeyO3MDpaqvbWg" name="JTextPane">
+        <modelElement href="Customer_Login.uml#_PKSIwW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuChm3KEeyO3MDpaqvbWg" name="lblFillTheFollowing">
+      <modelElement href="Customer_Login.uml#_PK7pAm3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuCh23KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PK7pA23KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PPuCiG3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PK8QEG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuCiW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuCim3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuCi23KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuCjG3KEeyO3MDpaqvbWg" name="btnPutChoice">
+      <modelElement href="Customer_Login.uml#_PK8QEW3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuCjW3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PK8QEm3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PPuCjm3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PK83IG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuCj23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuCkG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuCkW3KEeyO3MDpaqvbWg" name="JButton">
+        <modelElement href="Customer_Login.uml#_PKPsgW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuCkm3KEeyO3MDpaqvbWg" name="thispanel">
+      <modelElement href="Customer_Login.uml#_PK83IW3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuCk23KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PK83Im3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuClG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuClW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuClm3KEeyO3MDpaqvbWg" name="NewUser">
+        <modelElement href="Customer_Login.uml#_PJA9cG3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuCl23KEeyO3MDpaqvbWg" name="customerinfo">
+      <modelElement href="Customer_Login.uml#_PK9eMG3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuCmG3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PK9eMW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuCmW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuCmm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuCm23KEeyO3MDpaqvbWg" name="CustomerInfo">
+        <modelElement href="Customer_Login.uml#_PKlqwG3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuCnG3KEeyO3MDpaqvbWg" name="lblPassword">
+      <modelElement href="Customer_Login.uml#_PK9eMm3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuCnW3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PK-FQG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuCnm3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuCn23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuCoG3KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuCoW3KEeyO3MDpaqvbWg" name="formatter">
+      <modelElement href="Customer_Login.uml#_PK-FQW3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuCom3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PK-FQm3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuCo23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuCpG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuCpW3KEeyO3MDpaqvbWg" name="DateFormat">
+        <modelElement href="Customer_Login.uml#_PKeWAG3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuCpm3KEeyO3MDpaqvbWg" defaultValue="false" name="flag">
+      <modelElement href="Customer_Login.uml#_PLNV0G3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuCp23KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLNV0W3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PPuCqG3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLNV0m3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuCqW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuCqm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuCq23KEeyO3MDpaqvbWg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuCrG3KEeyO3MDpaqvbWg" name="textPane2">
+      <modelElement href="Customer_Login.uml#_PLNV1G3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuCrW3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLNV1W3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PPuCrm3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLNV1m3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuCr23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuCsG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuCsW3KEeyO3MDpaqvbWg" name="JTextPane">
+        <modelElement href="Customer_Login.uml#_PKSIwW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuCsm3KEeyO3MDpaqvbWg" name="textPane3">
+      <modelElement href="Customer_Login.uml#_PLNV123KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuCs23KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLN84G3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PPuCtG3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLN84W3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuCtW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuCtm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuCt23KEeyO3MDpaqvbWg" name="JTextPane">
+        <modelElement href="Customer_Login.uml#_PKSIwW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuCuG3KEeyO3MDpaqvbWg" name="textPane_1">
+      <modelElement href="Customer_Login.uml#_PLN84m3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuCuW3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLN8423KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PPuCum3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLN85G3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuCu23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuCvG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuCvW3KEeyO3MDpaqvbWg" name="JTextPane">
+        <modelElement href="Customer_Login.uml#_PKSIwW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuCvm3KEeyO3MDpaqvbWg" name="textPane_3">
+      <modelElement href="Customer_Login.uml#_PLN85W3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuCv23KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLN85m3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PPuCwG3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLN8523KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuCwW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuCwm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuCw23KEeyO3MDpaqvbWg" name="JTextPane">
+        <modelElement href="Customer_Login.uml#_PKSIwW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuCxG3KEeyO3MDpaqvbWg" name="textPane_4">
+      <modelElement href="Customer_Login.uml#_PLN86G3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuCxW3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLOj8G3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PPuCxm3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLOj8W3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuCx23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuCyG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuCyW3KEeyO3MDpaqvbWg" name="JTextPane">
+        <modelElement href="Customer_Login.uml#_PKSIwW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuCym3KEeyO3MDpaqvbWg" name="lblCollegeName">
+      <modelElement href="Customer_Login.uml#_PLOj8m3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuCy23KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLOj823KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PPuCzG3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLOj9G3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuCzW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuCzm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuCz23KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuC0G3KEeyO3MDpaqvbWg" name="lblCollegeName2">
+      <modelElement href="Customer_Login.uml#_PLOj9W3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuC0W3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLOj9m3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PPuC0m3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLOj923KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuC023KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuC1G3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuC1W3KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuC1m3KEeyO3MDpaqvbWg" name="lblCollegeName3">
+      <modelElement href="Customer_Login.uml#_PLOj-G3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuC123KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLPLAG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PPuC2G3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLPLAW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuC2W3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuC2m3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuC223KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuC3G3KEeyO3MDpaqvbWg" name="lblPleaseEnterThe">
+      <modelElement href="Customer_Login.uml#_PLPLAm3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuC3W3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLPLA23KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PPuC3m3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLPLBG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuC323KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuC4G3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuC4W3KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuC4m3KEeyO3MDpaqvbWg" name="lblPleaseEnterThe2">
+      <modelElement href="Customer_Login.uml#_PLPLBW3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuC423KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLPLBm3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PPuC5G3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLPLB23KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuC5W3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuC5m3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuC523KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuC6G3KEeyO3MDpaqvbWg" name="lblPleaseEnterThe3">
+      <modelElement href="Customer_Login.uml#_PLPLCG3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuC6W3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLPyEG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PPuC6m3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLPyEW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuC623KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuC7G3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuC7W3KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuC7m3KEeyO3MDpaqvbWg" name="lblPleaseEnterThe4">
+      <modelElement href="Customer_Login.uml#_PLPyEm3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuC723KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLPyE23KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PPuC8G3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLQZIG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuC8W3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuC8m3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuC823KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuC9G3KEeyO3MDpaqvbWg" name="lblPleaseEnterThe6">
+      <modelElement href="Customer_Login.uml#_PLQZIW3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuC9W3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLQZIm3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PPuC9m3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLQZI23KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuC923KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuC-G3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuC-W3KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuC-m3KEeyO3MDpaqvbWg" name="lblPleaseEnterThe7">
+      <modelElement href="Customer_Login.uml#_PLQZJG3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuC-23KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLRAMG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PPuC_G3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLRAMW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuC_W3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuC_m3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuC_23KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuDAG3KEeyO3MDpaqvbWg" name="lblMobileNumber">
+      <modelElement href="Customer_Login.uml#_PLRAMm3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuDAW3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLRAM23KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PPuDAm3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLRANG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuDA23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuDBG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuDBW3KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuDBm3KEeyO3MDpaqvbWg" name="lblNickName">
+      <modelElement href="Customer_Login.uml#_PLRANW3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuDB23KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLRnQG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PPuDCG3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLRnQW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuDCW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuDCm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuDC23KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuDDG3KEeyO3MDpaqvbWg" name="lblPleaseFillValid">
+      <modelElement href="Customer_Login.uml#_PLRnQm3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuDDW3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLRnQ23KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PPuDDm3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLRnRG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuDD23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuDEG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuDEW3KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuDEm3KEeyO3MDpaqvbWg" name="lblNewLabel">
+      <modelElement href="Customer_Login.uml#_PLRnRW3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuDE23KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLSOUG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PPuDFG3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLSOUW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuDFW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuDFm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuDF23KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PPuDGG3KEeyO3MDpaqvbWg" name="button">
+      <modelElement href="Customer_Login.uml#_PLSOUm3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PPuDGW3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLSOU23KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PPuDGm3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLS1YG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PPuDG23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuDHG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PPuDHW3KEeyO3MDpaqvbWg" name="JButton">
+        <modelElement href="Customer_Login.uml#_PKPsgW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_PPuDHm3KEeyO3MDpaqvbWg" name="NewUser">
+      <modelElement href="Customer_Login.uml#_PKs_gG3KEeyO3MDpaqvbWg"/>
+      <keywords xmi:id="_PPuDH23KEeyO3MDpaqvbWg" keyword="create"/>
+      <visibility xmi:id="_PPuDIG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PPuDIW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PPuDIm3KEeyO3MDpaqvbWg">
+        <modelElement href="Customer_Login.uml#_PKs_hm3KEeyO3MDpaqvbWg"/>
+        <type xmi:id="_PPuDI23KEeyO3MDpaqvbWg" name="NewUser">
+          <modelElement href="Customer_Login.uml#_PJA9cG3KEeyO3MDpaqvbWg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PPuDJG3KEeyO3MDpaqvbWg" name="parent">
+        <modelElement href="Customer_Login.uml#_PKs_gW3KEeyO3MDpaqvbWg"/>
+        <cardinality xmi:id="_PPuDJW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+        <type xmi:id="_PPuDJm3KEeyO3MDpaqvbWg" name="Login">
+          <modelElement href="Customer_Login.uml#_PI8sAG3KEeyO3MDpaqvbWg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PPuDJ23KEeyO3MDpaqvbWg" name="input">
+        <modelElement href="Customer_Login.uml#_PKs_gm3KEeyO3MDpaqvbWg"/>
+        <cardinality xmi:id="_PPuDKG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+        <type xmi:id="_PPuDKW3KEeyO3MDpaqvbWg" name="ObjectInputStream">
+          <modelElement href="Customer_Login.uml#_PKNQQW3KEeyO3MDpaqvbWg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PPuDKm3KEeyO3MDpaqvbWg" name="output">
+        <modelElement href="Customer_Login.uml#_PKs_g23KEeyO3MDpaqvbWg"/>
+        <cardinality xmi:id="_PPuDK23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+        <type xmi:id="_PPuDLG3KEeyO3MDpaqvbWg" name="ObjectOutputStream">
+          <modelElement href="Customer_Login.uml#_PKN3UG3KEeyO3MDpaqvbWg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PQT4QG3KEeyO3MDpaqvbWg" name="Login" associationsIn="_PP_IIG3KEeyO3MDpaqvbWg" associationsOut="_PP_IIG3KEeyO3MDpaqvbWg _PPn7wG3KEeyO3MDpaqvbWg _PP_vMG3KEeyO3MDpaqvbWg _PP_vMW3KEeyO3MDpaqvbWg _PP_vMm3KEeyO3MDpaqvbWg _PP_vM23KEeyO3MDpaqvbWg _PQAWQG3KEeyO3MDpaqvbWg _PQAWQW3KEeyO3MDpaqvbWg _PQAWQm3KEeyO3MDpaqvbWg _PQAWQ23KEeyO3MDpaqvbWg _PQAWRG3KEeyO3MDpaqvbWg _PQAWRW3KEeyO3MDpaqvbWg _PQAWRm3KEeyO3MDpaqvbWg _PQAWR23KEeyO3MDpaqvbWg _PQAWSG3KEeyO3MDpaqvbWg _PQAWSW3KEeyO3MDpaqvbWg _PQAWSm3KEeyO3MDpaqvbWg _PQPm0G3KEeyO3MDpaqvbWg _PQQN4G3KEeyO3MDpaqvbWg _PQQN6W3KEeyO3MDpaqvbWg _PQQ0-G3KEeyO3MDpaqvbWg _PQRcAG3KEeyO3MDpaqvbWg _PQSDEG3KEeyO3MDpaqvbWg _PQSDGW3KEeyO3MDpaqvbWg _PQSqIG3KEeyO3MDpaqvbWg _PQTRMG3KEeyO3MDpaqvbWg">
+    <modelElement href="Customer_Login.uml#_PI8sAG3KEeyO3MDpaqvbWg"/>
+    <visualProperties xmi:id="_PQT4QW3KEeyO3MDpaqvbWg" position="516.0,-618.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_PQT4Qm3KEeyO3MDpaqvbWg" label="+"/>
+    <attributes xmi:id="_PQT4Q23KEeyO3MDpaqvbWg" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Customer_Login.uml#_PKx4AG3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQT4RG3KEeyO3MDpaqvbWg" label="-"/>
+      <cardinality xmi:id="_PQT4RW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT4Rm3KEeyO3MDpaqvbWg" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT4R23KEeyO3MDpaqvbWg" name="contentPane">
+      <modelElement href="Customer_Login.uml#_PKyfEG3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQT4SG3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PKyfEW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQT4SW3KEeyO3MDpaqvbWg" label="-"/>
+      <cardinality xmi:id="_PQT4Sm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT4S23KEeyO3MDpaqvbWg" name="JPanel">
+        <modelElement href="Customer_Login.uml#_PKRhsW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT4TG3KEeyO3MDpaqvbWg" name="n">
+      <modelElement href="Customer_Login.uml#_PKyfEm3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQT4TW3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PKyfE23KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQT4Tm3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT4T23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT4UG3KEeyO3MDpaqvbWg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT4UW3KEeyO3MDpaqvbWg" name="username">
+      <modelElement href="Customer_Login.uml#_PKyfFG3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQT4Um3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PKzGIG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQT4U23KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PKzGIW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQT4VG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT4VW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT4Vm3KEeyO3MDpaqvbWg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT4V23KEeyO3MDpaqvbWg" name="thisframe">
+      <modelElement href="Customer_Login.uml#_PKzGIm3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQT4WG3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PKztMG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQT4WW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT4Wm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT4W23KEeyO3MDpaqvbWg" name="Login">
+        <modelElement href="Customer_Login.uml#_PI8sAG3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT4XG3KEeyO3MDpaqvbWg" name="c" staticAttribute="true">
+      <modelElement href="Customer_Login.uml#_PKztMW3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQT4XW3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PKztMm3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQT4Xm3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT4X23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT4YG3KEeyO3MDpaqvbWg" name="Container">
+        <modelElement href="Customer_Login.uml#_PKUlAG3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT4YW3KEeyO3MDpaqvbWg" name="customer" staticAttribute="true">
+      <modelElement href="Customer_Login.uml#_PK0UQG3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQT4Ym3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PK0UQW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQT4Y23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT4ZG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT4ZW3KEeyO3MDpaqvbWg" name="CustomerInfo">
+        <modelElement href="Customer_Login.uml#_PKlqwG3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT4Zm3KEeyO3MDpaqvbWg" name="c2" staticAttribute="true">
+      <modelElement href="Customer_Login.uml#_PK07UG3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQT4Z23KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PK07UW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQT4aG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT4aW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT4am3KEeyO3MDpaqvbWg" name="Socket">
+        <modelElement href="Customer_Login.uml#_PKY2cW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT4a23KEeyO3MDpaqvbWg" name="input" staticAttribute="true">
+      <modelElement href="Customer_Login.uml#_PK1iYG3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQT4bG3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PK1iYW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQT4bW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT4bm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT4b23KEeyO3MDpaqvbWg" name="ObjectInputStream">
+        <modelElement href="Customer_Login.uml#_PKNQQW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT4cG3KEeyO3MDpaqvbWg" name="output" staticAttribute="true">
+      <modelElement href="Customer_Login.uml#_PK2JcG3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQT4cW3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PK2JcW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQT4cm3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT4c23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT4dG3KEeyO3MDpaqvbWg" name="ObjectOutputStream">
+        <modelElement href="Customer_Login.uml#_PKN3UG3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT4dW3KEeyO3MDpaqvbWg" name="label3">
+      <modelElement href="Customer_Login.uml#_PK2Jcm3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQT4dm3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PK2wgG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQT4d23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT4eG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT4eW3KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT4em3KEeyO3MDpaqvbWg" name="panel">
+      <modelElement href="Customer_Login.uml#_PK2wgW3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQT4e23KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PK2wgm3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQT4fG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT4fW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT4fm3KEeyO3MDpaqvbWg" name="JPanel">
+        <modelElement href="Customer_Login.uml#_PKRhsW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT4f23KEeyO3MDpaqvbWg" name="screenSize">
+      <modelElement href="Customer_Login.uml#_PK3XkG3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQT4gG3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PK3XkW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQT4gW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT4gm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT4g23KEeyO3MDpaqvbWg" name="Dimension">
+        <modelElement href="Customer_Login.uml#_PKVzIG3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT4hG3KEeyO3MDpaqvbWg" name="icon">
+      <modelElement href="Customer_Login.uml#_PK3Xkm3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQT4hW3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PK3Xk23KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQT4hm3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PK3-oG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQT4h23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT4iG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT4iW3KEeyO3MDpaqvbWg" name="ImageIcon">
+        <modelElement href="Customer_Login.uml#_PKPFcW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT4im3KEeyO3MDpaqvbWg" name="label2">
+      <modelElement href="Customer_Login.uml#_PK3-oW3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQT4i23KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PK3-om3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQT4jG3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PK3-o23KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQT4jW3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT4jm3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT4j23KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT4kG3KEeyO3MDpaqvbWg" name="forgotpass">
+      <modelElement href="Customer_Login.uml#_PK4lsG3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQT4kW3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PK4lsW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQT4km3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT4k23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT4lG3KEeyO3MDpaqvbWg" name="ForgotPass">
+        <modelElement href="Customer_Login.uml#_PI5BoG3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT4lW3KEeyO3MDpaqvbWg" name="newuser">
+      <modelElement href="Customer_Login.uml#_PK4lsm3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQT4lm3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT4l23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT4mG3KEeyO3MDpaqvbWg" name="NewUser">
+        <modelElement href="Customer_Login.uml#_PJA9cG3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT4mW3KEeyO3MDpaqvbWg" name="textPane">
+      <modelElement href="Customer_Login.uml#_PK4ltG3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQT4mm3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PK5MwG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQT4m23KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT4nG3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT4nW3KEeyO3MDpaqvbWg" name="JTextPane">
+        <modelElement href="Customer_Login.uml#_PKSIwW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT4nm3KEeyO3MDpaqvbWg" name="password">
+      <modelElement href="Customer_Login.uml#_PK5MwW3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQT4n23KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PK5Mwm3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQT4oG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT4oW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT4om3KEeyO3MDpaqvbWg" name="JPasswordField">
+        <modelElement href="Customer_Login.uml#_PKRhs23KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT4o23KEeyO3MDpaqvbWg" name="btnNewButton_1">
+      <modelElement href="Customer_Login.uml#_PK5Mw23KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQT4pG3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PK5MxG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQT4pW3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PK5z0G3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQT4pm3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT4p23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT4qG3KEeyO3MDpaqvbWg" name="JButton">
+        <modelElement href="Customer_Login.uml#_PKPsgW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT4qW3KEeyO3MDpaqvbWg" name="pass">
+      <modelElement href="Customer_Login.uml#_PLKSgW3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQT4qm3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLKSgm3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQT4q23KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLKSg23KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQT4rG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT4rW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT4rm3KEeyO3MDpaqvbWg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT4r23KEeyO3MDpaqvbWg" name="icon2">
+      <modelElement href="Customer_Login.uml#_PLKShG3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQT4sG3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLK5kG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQT4sW3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLK5kW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQT4sm3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT4s23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT4tG3KEeyO3MDpaqvbWg" name="ImageIcon">
+        <modelElement href="Customer_Login.uml#_PKPFcW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT4tW3KEeyO3MDpaqvbWg" name="lblNewLabel">
+      <modelElement href="Customer_Login.uml#_PLK5km3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQT4tm3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLK5k23KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQT4t23KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLK5lG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQT4uG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT4uW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT4um3KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT4u23KEeyO3MDpaqvbWg" name="lblNewLabel_1">
+      <modelElement href="Customer_Login.uml#_PLK5lW3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQT4vG3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLLgoG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQT4vW3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLLgoW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQT4vm3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT4v23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT4wG3KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT4wW3KEeyO3MDpaqvbWg" name="label">
+      <modelElement href="Customer_Login.uml#_PLLgom3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQT4wm3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLLgo23KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQT4w23KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLLgpG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQT4xG3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT4xW3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT4xm3KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT4x23KEeyO3MDpaqvbWg" name="lblPleaseFillAll">
+      <modelElement href="Customer_Login.uml#_PLLgpW3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQT4yG3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLLgpm3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQT4yW3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLLgp23KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQT4ym3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT4y23KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT4zG3KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT4zW3KEeyO3MDpaqvbWg" name="lblPleaseFillValid">
+      <modelElement href="Customer_Login.uml#_PLMHsG3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQT4zm3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLMHsW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQT4z23KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLMHsm3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQT40G3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT40W3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT40m3KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT4023KEeyO3MDpaqvbWg" name="lblAdminPortal">
+      <modelElement href="Customer_Login.uml#_PLMHs23KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQT41G3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLMHtG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQT41W3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLMHtW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQT41m3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT4123KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT42G3KEeyO3MDpaqvbWg" name="JLabel">
+        <modelElement href="Customer_Login.uml#_PKQTkW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT42W3KEeyO3MDpaqvbWg" name="btnNewUser">
+      <modelElement href="Customer_Login.uml#_PLMHtm3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQT42m3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLMuwG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQT4223KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLMuwW3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQT43G3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT43W3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT43m3KEeyO3MDpaqvbWg" name="JButton">
+        <modelElement href="Customer_Login.uml#_PKPsgW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PQT4323KEeyO3MDpaqvbWg" name="btnNewButton">
+      <modelElement href="Customer_Login.uml#_PLMuwm3KEeyO3MDpaqvbWg"/>
+      <stereotypes xmi:id="_PQT44G3KEeyO3MDpaqvbWg" name="MultiDeclaration">
+        <modelElement href="Customer_Login.uml#_PLMuw23KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PQT44W3KEeyO3MDpaqvbWg" name="LegacyStyledElement">
+        <modelElement href="Customer_Login.uml#_PLMuxG3KEeyO3MDpaqvbWg"/>
+      </stereotypes>
+      <visibility xmi:id="_PQT44m3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT4423KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <type xmi:id="_PQT45G3KEeyO3MDpaqvbWg" name="JButton">
+        <modelElement href="Customer_Login.uml#_PKPsgW3KEeyO3MDpaqvbWg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_PQT45W3KEeyO3MDpaqvbWg" name="main" staticOperation="true">
+      <modelElement href="Customer_Login.uml#_PI96IG3KEeyO3MDpaqvbWg"/>
+      <visibility xmi:id="_PQT45m3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT4523KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_PQT46G3KEeyO3MDpaqvbWg" name="args">
+        <modelElement href="Customer_Login.uml#_PI96IW3KEeyO3MDpaqvbWg"/>
+        <cardinality xmi:id="_PQT46W3KEeyO3MDpaqvbWg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_PQT46m3KEeyO3MDpaqvbWg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PQT4623KEeyO3MDpaqvbWg" name="Login">
+      <modelElement href="Customer_Login.uml#_PI-hMG3KEeyO3MDpaqvbWg"/>
+      <keywords xmi:id="_PQT47G3KEeyO3MDpaqvbWg" keyword="create"/>
+      <visibility xmi:id="_PQT47W3KEeyO3MDpaqvbWg" label="+"/>
+      <cardinality xmi:id="_PQT47m3KEeyO3MDpaqvbWg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PQT4723KEeyO3MDpaqvbWg">
+        <modelElement href="Customer_Login.uml#_PI-hM23KEeyO3MDpaqvbWg"/>
+        <type xmi:id="_PQT48G3KEeyO3MDpaqvbWg" name="Login">
+          <modelElement href="Customer_Login.uml#_PI8sAG3KEeyO3MDpaqvbWg"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
